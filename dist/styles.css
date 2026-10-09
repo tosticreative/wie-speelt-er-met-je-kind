@@ -59,6 +59,21 @@ footer{grid-template-columns:1fr 1.2fr}.footer-meta,#verantwoording:empty{displa
 @media(max-width:520px){.site-header .help-link{display:none}.hero{padding-bottom:35px}.hero-copy{order:1}.hero-scene{order:2;height:455px;margin-top:12px}.hero-scene .avatar-layer{bottom:0;max-height:100%;max-width:100%;object-fit:contain}.hero-scene .avatar-stranger{height:91%}.hero-scene .avatar-girl{height:96%}.source-line{font-size:12px}.issue-intro{gap:35px}.key-visual-card{height:390px}.conversation{gap:35px}.conversation-stage{min-height:360px}.signal-list summary{font-size:17px}.settings{gap:35px}.platform-card a{width:100%}.referral{padding-block:60px}.referral .button{width:100%}.video-feature{gap:30px}.sources{padding-block:65px}}
 @media(prefers-reduced-motion:reduce){.avatar-glitch .avatar-girl{animation:none!important;opacity:0!important}.avatar-glitch .avatar-stranger{animation:none!important;opacity:1!important;clip-path:inset(0)!important;transform:translateX(-50%)!important}.glitch-scan{animation:none!important;opacity:0!important}}
 
+/* v0.4 — one registered pose, two identities, continuous glitch */
+.hero-scene.avatar-glitch{background:#100f0f;overflow:hidden;isolation:isolate}
+.avatar-glitch .avatar-frame{position:absolute;inset:0;background-image:url("hero-avatar-pose-atlas-v1.png");background-repeat:no-repeat;background-size:200% 100%;will-change:opacity,transform,clip-path}
+.avatar-glitch .avatar-girl{z-index:3;background-position:left center;opacity:0}
+.avatar-glitch .avatar-stranger{z-index:2;background-position:right center;opacity:1}
+.motion-ready .avatar-glitch .avatar-girl,.motion-ready .avatar-glitch .avatar-stranger{animation-duration:4.8s;animation-timing-function:steps(1,end);animation-iteration-count:infinite}
+.motion-ready .avatar-glitch .avatar-girl{animation-name:identity-girl}
+.motion-ready .avatar-glitch .avatar-stranger{animation-name:identity-stranger}
+.motion-ready .avatar-glitch .glitch-scan{animation:identity-static 4.8s steps(1,end) infinite}
+@keyframes identity-girl{0%,11%,22%,57%,68%,100%{opacity:0;transform:translate(0);clip-path:inset(0)}12%,20%,58%,66%{opacity:.92;transform:translate(0);clip-path:inset(0)}21%,67%{opacity:.38;transform:translate(-3px,1px);clip-path:polygon(0 0,100% 0,100% 24%,0 24%,0 31%,100% 31%,100% 63%,0 63%,0 72%,100% 72%,100% 100%,0 100%)}}
+@keyframes identity-stranger{0%,100%{opacity:1;transform:translate(0);clip-path:inset(0)}}
+@keyframes identity-static{0%,11%,15%,20%,22%,57%,61%,66%,68%,100%{opacity:0;transform:translateX(0)}12%,21%,58%,67%{opacity:.26;transform:translateX(-3px)}13%,59%{opacity:.12;transform:translateX(3px)}}
+@media(max-width:850px){.hero-scene.avatar-glitch{overflow:hidden}.avatar-glitch .avatar-frame{background-size:200% 100%;background-position-y:center}}
+@media(prefers-reduced-motion:reduce){.avatar-glitch .avatar-frame{animation:none!important}.avatar-glitch .avatar-girl{opacity:0!important}.avatar-glitch .avatar-stranger{opacity:1!important;transform:none!important;clip-path:inset(0)!important}}
+
 /* v0.3 — gewone taal, herkenbare signalen en duidelijke hulproutes */
 .hero h1{font-size:clamp(43px,5.2vw,78px)}.hero .lead{max-width:650px}.inline-source{font-size:13px!important}.inline-source a{font-weight:800;text-underline-offset:3px}.facts-grid article:last-child strong{font-size:clamp(43px,5vw,70px)}.signals .section-intro.compact{margin-bottom:0}.signals .section-intro.compact .text-link{display:inline-block;margin-top:16px;font-size:13px}.signal-list details p strong{color:var(--ink)}
 .fact-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:auto}.fact-links a{margin-top:0}
