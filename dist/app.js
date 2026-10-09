@@ -18,11 +18,11 @@ document.querySelector('#next-question').addEventListener('click', () => {
 });
 
 const advice = {
-  chat: 'Vraag wie er kan meeluisteren en hoe je kind iemand blokkeert of rapporteert.',
-  unknown: 'Bekijk samen de contacten. Vraag wat je kind over deze spelers weet en hoe het dat weet.',
-  move: 'Bespreek waarom het gesprek verhuist en welke persoonlijke informatie daar zichtbaar wordt.',
-  money: 'Spreek vooraf een bedrag af en zet waar mogelijk aankoopbeveiliging of goedkeuring aan.',
-  unsure: 'Laat je kind één favoriete game en een paar vaste medespelers aan je voorstellen.'
+  chat: 'Vraag eens wie er meestal meeluisteren en of je kind weet hoe blokkeren en rapporteren werkt.',
+  unknown: 'Vraag hoe je kind deze spelers heeft leren kennen en wat ze van elkaar weten.',
+  move: 'Kijk samen waarom het gesprek naar een andere app gaat en welke gegevens daar zichtbaar zijn.',
+  money: 'Spreek samen een bedrag af en zet goedkeuring voor aankopen aan.',
+  unsure: 'Laat je kind zijn favoriete game en een paar vaste medespelers aan je voorstellen.'
 };
 
 const form = document.querySelector('#safety-form');
@@ -30,8 +30,8 @@ const result = document.querySelector('#check-result');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const chosen = [...form.querySelectorAll('input:checked')].map(input => input.value);
-  const items = chosen.length ? chosen.map(key => `<li>${advice[key]}</li>`).join('') : '<li>Begin eenvoudig: vraag je kind om zijn of haar favoriete game aan jou uit te leggen.</li>';
-  result.innerHTML = `<h3>Kies één moment om samen te kijken.</h3><ul>${items}</ul><p><small>Geen score of diagnose—alleen praktische gesprekspunten.</small></p><button type="button" class="button primary" id="reset-check">Opnieuw invullen</button>`;
+  const items = chosen.length ? chosen.map(key => `<li>${advice[key]}</li>`).join('') : '<li>Vraag je kind om zijn of haar favoriete game aan jou uit te leggen.</li>';
+  result.innerHTML = `<h3>Dit kun je eens vragen</h3><ul>${items}</ul><p><small>Je hoeft ze niet allemaal tegelijk te bespreken. Kies er eentje die bij jullie past.</small></p><button type="button" class="button primary" id="reset-check">Nog een keer</button>`;
   form.hidden = true;
   result.hidden = false;
   result.focus();
