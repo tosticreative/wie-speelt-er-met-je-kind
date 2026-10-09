@@ -4,8 +4,11 @@ const questions = [
   'Hoe weet je wie er achter een account zit?',
   'Heeft iemand je ooit gevraagd ergens anders verder te praten?',
   'Wat zou je doen als iemand je gratis spullen aanbiedt?',
-  'Weet je dat je geen straf krijgt als je iets vertelt wat niet goed voelde?'
+  'Welke afspraken zouden jou helpen als iets online niet goed voelt?'
 ];
+
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+if (!reducedMotion.matches) document.documentElement.classList.add('motion-ready');
 
 let questionIndex = 0;
 const questionCard = document.querySelector('#question-card');
@@ -28,7 +31,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const chosen = [...form.querySelectorAll('input:checked')].map(input => input.value);
   const items = chosen.length ? chosen.map(key => `<li>${advice[key]}</li>`).join('') : '<li>Begin eenvoudig: vraag je kind om zijn of haar favoriete game aan jou uit te leggen.</li>';
-  result.innerHTML = `<p class="eyebrow">Jullie volgende stap</p><h3>Kies één moment om samen te kijken.</h3><ul>${items}</ul><p><small>Dit is geen risicoscore of diagnose. Het zijn gesprekspunten op basis van wat je zelf hebt aangevinkt.</small></p><button type="button" class="button primary" id="reset-check">Opnieuw invullen</button>`;
+  result.innerHTML = `<h3>Kies één moment om samen te kijken.</h3><ul>${items}</ul><p><small>Geen score of diagnose—alleen praktische gesprekspunten.</small></p><button type="button" class="button primary" id="reset-check">Opnieuw invullen</button>`;
   form.hidden = true;
   result.hidden = false;
   result.focus();
