@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Praat samen over online gamen, controleer instellingen en vind hulp als er iets is gebeurd.">
+  <meta name="theme-color" content="#f7f1e7">
+  <title>Wie speelt er met je kind?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ga naar de inhoud</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Wie speelt er met je kind — naar boven">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Wie speelt er<br><strong>met je kind?</strong></span>
+    </a>
+    <nav aria-label="Hoofdnavigatie">
+      <a href="#check">Veiligheidscheck</a>
+      <a href="#praten">Praten</a>
+      <a href="#instellingen">Instellingen</a>
+    </nav>
+    <a class="help-link" href="#hulp">Er is iets gebeurd <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <h1>Je kind speelt online, maar <em>wie speelt er met je kind?</em></h1>
+        <p class="lead">Een avatar laat niet altijd eerlijk zien wie er achter zit. Ontdek samen met je kind hoe je veilig online kunt gamen.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#check">Ontdek de gevaren van gameplatforms als Roblox <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <figure class="hero-scene avatar-glitch" role="img" aria-label="Een vrolijke game-avatar verandert met een digitale glitch in een onbekende volwassen avatar">
+        <img class="avatar-layer avatar-girl" src="happy-game-avatar-girl-transparent.png" alt="">
+        <img class="avatar-layer avatar-stranger" src="hero-avatar-transparent-v2.png" alt="">
+        <span class="glitch-scan" aria-hidden="true"></span>
+      </figure>
+    </section>
+
+    <section class="quick-paths issue-intro" aria-labelledby="start-title">
+      <div class="issue-copy">
+        <h2 id="start-title">Online spelen is ook online ontmoeten.</h2>
+        <p>Games zijn plekken waar kinderen spelen, bouwen en vrienden spreken. Maar ook onbekenden kunnen contact zoeken, gesprekken kunnen naar andere apps verplaatsen en aankopen zijn vaak maar één klik verwijderd. Daarom helpt het om te weten wat je kind online doet—zonder het plezier van gamen weg te nemen.</p>
+        <a class="button primary" href="#check">Leer meer <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="happy-avatar-wrap">
+        <img src="happy-game-avatar-girl.png" alt="Een vrolijk meisje als game-avatar, met twee vlechtjes">
+      </div>
+    </section>
+
+    <section class="check-section" id="check" aria-labelledby="check-title">
+      <div class="check-copy">
+        <h2 id="check-title">Wat weet jij eigenlijk van de online wereld waar je kind speelt?</h2>
+      </div>
+      <div class="check-panel">
+        <form id="safety-form">
+          <fieldset>
+            <legend class="sr-only">Herkenbare situaties</legend>
+            <label><input type="checkbox" name="situation" value="chat"><span>Mijn kind chat of praat via een headset.</span></label>
+            <label><input type="checkbox" name="situation" value="unknown"><span>Mijn kind speelt met mensen die het niet persoonlijk kent.</span></label>
+            <label><input type="checkbox" name="situation" value="move"><span>Gesprekken gaan verder op Discord, Snapchat of WhatsApp.</span></label>
+            <label><input type="checkbox" name="situation" value="money"><span>Mijn kind vraagt om gamegeld of aankopen.</span></label>
+            <label><input type="checkbox" name="situation" value="unsure"><span>Ik weet eigenlijk niet precies met wie mijn kind speelt.</span></label>
+          </fieldset>
+          <button class="button primary full" type="submit">Toon tips en trucs voor veilig gamen <span aria-hidden="true">→</span></button>
+        </form>
+        <div id="check-result" class="check-result" hidden aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="conversation" id="praten" aria-labelledby="talk-title">
+      <div class="conversation-stage">
+        <div class="question-label">Vraag van vandaag</div>
+        <blockquote id="question-card">“Laat eens zien wat je zo leuk vindt aan dit spel”</blockquote>
+        <button id="next-question" class="round-button" type="button">Volgende vraag <span aria-hidden="true">↻</span></button>
+      </div>
+      <div class="conversation-copy">
+        <h2 id="talk-title">Game safe</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo sed lorem feugiat viverra.</p>
+        <ul>
+          <li><span>1</span><div><strong>Lorem ipsum dolor</strong><br>Sit amet, consectetur adipiscing elit.</div></li>
+          <li><span>2</span><div><strong>Integer vitae justo</strong><br>Sed lorem feugiat viverra et eget nibh.</div></li>
+          <li><span>3</span><div><strong>Maecenas sed felis</strong><br>Viverra, pulvinar nisi non, posuere dui.</div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="signals" aria-labelledby="signals-title">
+      <div class="section-intro compact">
+        <h2 id="signals-title">Tips voor jou<br>en je kind</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed felis viverra, pulvinar nisi non, posuere dui.</p>
+      </div>
+      <div class="signal-list">
+        <details><summary><span>01</span>Iemand vraagt om geheimhouding<i>+</i></summary><p>Neem een verzoek om iets voor ouders of verzorgers geheim te houden serieus. Vraag rustig wat er precies is gezegd.</p></details>
+        <details><summary><span>02</span>Contact verplaatst naar een privé-app<i>+</i></summary><p>Bespreek waarom iemand buiten de game wil praten en welke informatie daar zichtbaar wordt.</p></details>
+        <details><summary><span>03</span>Gratis spullen komen met voorwaarden<i>+</i></summary><p>Vraag wat er in ruil wordt verwacht voordat er wordt geklikt, betaald of iets wordt gedeeld.</p></details>
+        <details><summary><span>04</span>Er wordt gevraagd om foto’s of afspreken<i>+</i></summary><p>Laat je kind niets verder sturen en zoek samen passende hulp. Bij direct gevaar bel je 112.</p></details>
+      </div>
+    </section>
+
+    <section class="settings" id="instellingen" aria-labelledby="settings-title">
+      <div class="settings-heading">
+        <h2 id="settings-title">Veilig online<br>in 10 minuten</h2>
+        <p>Open het account samen met je kind. Benamingen en menu’s veranderen regelmatig; gebruik voor de precieze stappen altijd de officiële handleiding van het platform.</p>
+      </div>
+      <ol class="settings-steps">
+        <li><span>1</span><div><strong>Wie kan contact opnemen?</strong><p>Bekijk wie mag chatten, berichten sturen of uitnodigen.</p></div></li>
+        <li><span>2</span><div><strong>Wat is er zichtbaar?</strong><p>Controleer profiel, leeftijd, vriendenlijst en activiteit.</p></div></li>
+        <li><span>3</span><div><strong>Wie kan iets kopen?</strong><p>Stel een pincode of goedkeuring voor aankopen in.</p></div></li>
+      </ol>
+      <div class="platform-card"><div><span class="platform-logo">R</span><span><strong>Roblox-handleiding</strong><small>Concept — officiële stappen nog te verifiëren</small></span></div><button type="button" disabled aria-describedby="source-status">Nog niet gepubliceerd</button></div>
+      <p id="source-status" class="status-note">Bron eerst, publicatie daarna. Deze handleiding wordt pas actief na broncontrole en menselijke goedkeuring.</p>
+    </section>
+
+    <section class="help" id="hulp" aria-labelledby="help-title">
+      <div>
+        <h2 id="help-title">Iets vervelends gebeurd? Dit kun je doen.</h2>
+      </div>
+      <div class="help-content">
+        <p class="help-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo sed lorem feugiat viverra.</p>
+        <ol>
+          <li><span>1</span><p><strong>Is er direct gevaar?</strong><br>Bel 112. Ga niet zelf naar een afspraak toe.</p></li>
+          <li><span>2</span><p><strong>Verzamel bewijs</strong><br>Verwijder gesprekken of accounts niet meteen. Maak waar mogelijk schermafbeeldingen.</p></li>
+          <li><span>3</span><p><strong>Zoek passende hulp</strong><br>Een professionele organisatie kan helpen bepalen wat nu verstandig is.</p></li>
+        </ol>
+        <div class="help-actions">
+          <a class="button white" href="tel:112">Direct gevaar: bel 112</a>
+          <p>Andere hulproutes worden toegevoegd zodra links en adviezen inhoudelijk zijn gecontroleerd.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise video-feature" aria-labelledby="video-title">
+      <div class="video-copy">
+        <h2 id="video-title">In de media</h2>
+        <p>Lubach onderzoekt hoe Roblox kinderen vasthoudt met commerciële prikkels en welke risico’s kunnen ontstaan wanneer jonge spelers met onbekenden communiceren. De aflevering geeft ouders een toegankelijke introductie tot het onderwerp.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/TrzreXf6Pdk" title="Roblox is gevaarlijk, verslavend en ECHT niet goed voor kinderen — LUBACH" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer id="privacy">
+    <div class="footer-brand">Wie speelt er<br><strong>met je kind?</strong></div>
+    <p>Een onafhankelijk platform.</p>
+    <nav aria-label="Voettekst"><a href="#verantwoording">Bronnen & verantwoording</a><a href="#privacy">Privacy</a><a href="mailto:correcties@wiespeeltermetjekind.nl">Feitelijke correctie melden</a></nav>
+    <div id="verantwoording"></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
