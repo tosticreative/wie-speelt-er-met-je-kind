@@ -68,9 +68,9 @@ footer{grid-template-columns:1fr 1.2fr}.footer-meta,#verantwoording:empty{displa
 .motion-ready .avatar-glitch .avatar-girl{animation-name:identity-girl}
 .motion-ready .avatar-glitch .avatar-stranger{animation-name:identity-stranger}
 .motion-ready .avatar-glitch .glitch-scan{animation:identity-static 4.8s steps(1,end) infinite}
-@keyframes identity-girl{0%,11%,22%,57%,68%,100%{opacity:0;transform:translate(0);clip-path:inset(0)}12%,20%,58%,66%{opacity:.92;transform:translate(0);clip-path:inset(0)}21%,67%{opacity:.38;transform:translate(-3px,1px);clip-path:polygon(0 0,100% 0,100% 24%,0 24%,0 31%,100% 31%,100% 63%,0 63%,0 72%,100% 72%,100% 100%,0 100%)}}
-@keyframes identity-stranger{0%,100%{opacity:1;transform:translate(0);clip-path:inset(0)}}
-@keyframes identity-static{0%,11%,15%,20%,22%,57%,61%,66%,68%,100%{opacity:0;transform:translateX(0)}12%,21%,58%,67%{opacity:.26;transform:translateX(-3px)}13%,59%{opacity:.12;transform:translateX(3px)}}
+@keyframes identity-girl{0%,25%,40%,66%,80%,100%{opacity:0;transform:translate(0);clip-path:inset(0)}27%,38%,68%,78%{opacity:1;transform:translate(0);clip-path:inset(0)}26%,39%,67%,79%{opacity:.58;transform:translate(-3px,1px);clip-path:polygon(0 0,100% 0,100% 24%,0 24%,0 31%,100% 31%,100% 63%,0 63%,0 72%,100% 72%,100% 100%,0 100%)}}
+@keyframes identity-stranger{0%,25%,40%,66%,80%,100%{opacity:1;transform:translate(0);clip-path:inset(0)}27%,38%,68%,78%{opacity:0;transform:translate(0);clip-path:inset(0)}26%,39%,67%,79%{opacity:.62;transform:translate(3px,-1px);clip-path:polygon(0 7%,100% 7%,100% 27%,0 27%,0 43%,100% 43%,100% 68%,0 68%,0 78%,100% 78%,100% 96%,0 96%)}}
+@keyframes identity-static{0%,25%,28%,38%,41%,66%,69%,78%,81%,100%{opacity:0;transform:translateX(0)}26%,39%,67%,79%{opacity:.3;transform:translateX(-3px)}27%,40%,68%,80%{opacity:.12;transform:translateX(3px)}}
 @media(max-width:850px){.hero-scene.avatar-glitch{overflow:hidden}.avatar-glitch .avatar-frame{background-size:200% 100%;background-position-y:center}}
 @media(prefers-reduced-motion:reduce){.avatar-glitch .avatar-frame{animation:none!important}.avatar-glitch .avatar-girl{opacity:0!important}.avatar-glitch .avatar-stranger{opacity:1!important;transform:none!important;clip-path:inset(0)!important}}
 
