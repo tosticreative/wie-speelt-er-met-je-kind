@@ -61,9 +61,9 @@ footer{grid-template-columns:1fr 1.2fr}.footer-meta,#verantwoording:empty{displa
 
 /* v0.4 — one registered pose, two identities, continuous glitch */
 .hero-scene.avatar-glitch{background:#100f0f;overflow:hidden;isolation:isolate}
-.avatar-glitch .avatar-frame{position:absolute;inset:0;background-image:url("hero-avatar-pose-atlas-v1.png");background-repeat:no-repeat;background-size:200% 100%;will-change:opacity,transform,clip-path}
-.avatar-glitch .avatar-girl{z-index:3;background-position:left center;opacity:0}
-.avatar-glitch .avatar-stranger{z-index:2;background-position:right center;opacity:1}
+.avatar-glitch .avatar-frame{position:absolute;inset:0;background-repeat:no-repeat;background-size:contain;background-position:center bottom;will-change:opacity,transform,clip-path}
+.avatar-glitch .avatar-girl{z-index:3;background-image:url("hero-avatar-girl-front.png");opacity:0}
+.avatar-glitch .avatar-stranger{z-index:2;background-image:url("hero-avatar-man-front.png");opacity:1}
 .motion-ready .avatar-glitch .avatar-girl,.motion-ready .avatar-glitch .avatar-stranger{animation-duration:4.8s;animation-timing-function:steps(1,end);animation-iteration-count:infinite}
 .motion-ready .avatar-glitch .avatar-girl{animation-name:identity-girl}
 .motion-ready .avatar-glitch .avatar-stranger{animation-name:identity-stranger}
@@ -71,7 +71,7 @@ footer{grid-template-columns:1fr 1.2fr}.footer-meta,#verantwoording:empty{displa
 @keyframes identity-girl{0%,25%,40%,66%,80%,100%{opacity:0;transform:translate(0);clip-path:inset(0)}27%,38%,68%,78%{opacity:1;transform:translate(0);clip-path:inset(0)}26%,39%,67%,79%{opacity:.58;transform:translate(-3px,1px);clip-path:polygon(0 0,100% 0,100% 24%,0 24%,0 31%,100% 31%,100% 63%,0 63%,0 72%,100% 72%,100% 100%,0 100%)}}
 @keyframes identity-stranger{0%,25%,40%,66%,80%,100%{opacity:1;transform:translate(0);clip-path:inset(0)}27%,38%,68%,78%{opacity:0;transform:translate(0);clip-path:inset(0)}26%,39%,67%,79%{opacity:.62;transform:translate(3px,-1px);clip-path:polygon(0 7%,100% 7%,100% 27%,0 27%,0 43%,100% 43%,100% 68%,0 68%,0 78%,100% 78%,100% 96%,0 96%)}}
 @keyframes identity-static{0%,25%,28%,38%,41%,66%,69%,78%,81%,100%{opacity:0;transform:translateX(0)}26%,39%,67%,79%{opacity:.3;transform:translateX(-3px)}27%,40%,68%,80%{opacity:.12;transform:translateX(3px)}}
-@media(max-width:850px){.hero-scene.avatar-glitch{overflow:hidden}.avatar-glitch .avatar-frame{background-size:200% 100%;background-position-y:center}}
+@media(max-width:850px){.hero-scene.avatar-glitch{overflow:hidden}.avatar-glitch .avatar-frame{background-size:contain;background-position:center bottom}}
 @media(prefers-reduced-motion:reduce){.avatar-glitch .avatar-frame{animation:none!important}.avatar-glitch .avatar-girl{opacity:0!important}.avatar-glitch .avatar-stranger{opacity:1!important;transform:none!important;clip-path:inset(0)!important}}
 
 /* v0.3 — gewone taal, herkenbare signalen en duidelijke hulproutes */
