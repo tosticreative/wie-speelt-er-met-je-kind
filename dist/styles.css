@@ -182,10 +182,14 @@ main section:not(.hero) h2,
 .problem-intro>p:not(.source-row){font-size:19px;line-height:1.6;max-width:520px;margin:0}
 .problem .source-row{margin:28px 0 0;font-size:14px}
 .problem-character{margin:0;min-width:0;display:flex;flex-direction:column;align-items:center}
-.problem-character img{display:block;width:min(100%,480px);aspect-ratio:1;object-fit:cover;border-radius:28px;filter:drop-shadow(8px 8px 0 var(--blue))}
+.problem-image-focus{width:min(100%,480px);aspect-ratio:1;overflow:hidden;border-radius:28px;filter:drop-shadow(8px 8px 0 var(--blue));cursor:zoom-in;outline:none}
+.problem-character img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1);transform-origin:68% 58%;transition:transform .7s cubic-bezier(.2,.75,.2,1)}
+.problem-image-focus:focus-visible{outline:4px solid var(--ink);outline-offset:5px}
+@media(hover:hover){.problem-image-focus:hover img,.problem-image-focus:focus-visible img{transform:scale(1.85)}}
 .problem-character figcaption{width:min(100%,480px);margin-top:16px;font-size:12px;line-height:1.4;color:#403c35;text-align:right}
-@media(max-width:850px){.problem{grid-template-columns:1fr;row-gap:32px}.problem-intro>p:not(.source-row){max-width:650px}.problem-character img,.problem-character figcaption{max-width:360px}}
-@media(max-width:520px){.problem-intro>p:not(.source-row){font-size:18px}.problem-character img,.problem-character figcaption{max-width:300px}.problem-character img{border-radius:22px}}
+@media(max-width:850px){.problem{grid-template-columns:1fr;row-gap:32px}.problem-intro>p:not(.source-row){max-width:650px}.problem-image-focus,.problem-character figcaption{max-width:360px}}
+@media(max-width:520px){.problem-intro>p:not(.source-row){font-size:18px}.problem-image-focus,.problem-character figcaption{max-width:300px}.problem-image-focus{border-radius:22px}}
+@media(prefers-reduced-motion:reduce){.problem-character img{transition:none}}
 
 /* Source-led guidance, in the existing campaign visual language. */
 .source-note{font-size:13px;line-height:1.6;margin:20px 0 0}

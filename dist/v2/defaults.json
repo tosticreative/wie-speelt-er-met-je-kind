@@ -671,8 +671,8 @@
     },
     "hulp.text.5": {
       "section": "hulp",
-      "label": "Luister zonder verwijt.",
-      "value": "Luister zonder verwijt."
+      "label": "In gesprek met je kind",
+      "value": "In gesprek met je kind"
     },
     "hulp.text.6": {
       "section": "hulp",
@@ -757,12 +757,7 @@
     "hulp.text.22": {
       "section": "hulp",
       "label": ".",
-      "value": ". "
-    },
-    "hulp.text.23": {
-      "section": "hulp",
-      "label": "Politie ↗",
-      "value": "Politie ↗"
+      "value": "."
     },
     "hulp.text.24": {
       "section": "hulp",
