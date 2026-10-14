@@ -101,6 +101,8 @@ body.v3 :is(a,button,summary,[tabindex]):focus-visible{
   border:4px solid var(--game-line);border-radius:22px;
   box-shadow:inset 0 4px 0 rgba(255,255,255,.3),8px 8px 0 var(--blue);filter:none;
 }
+.v3 .problem-image-focus .meeting-glitch{transform:scale(1.42);transform-origin:59% 61%}
+@media(hover:hover){.v3 .problem-image-focus:hover .meeting-glitch,.v3 .problem-image-focus:focus-visible .meeting-glitch{transform:scale(1.7)}}
 .v3 .risk-terms{border:0;display:grid;gap:14px}
 .v3 .risk-terms details{
   overflow:hidden;border:4px solid var(--game-line);border-radius:14px;
