@@ -21,19 +21,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - name: Prepare public website
         run: |
-          mkdir public-site
-          cp dist/*.* public-site/
-          cp dist/v2/app.js dist/v2/public.js dist/v2/defaults.json public-site/
-          cp content/copy.json public-site/content.json
-          sed \
-            -e 's#href="../styles.css"#href="styles.css"#' \
-            -e 's#<link rel="stylesheet" href="editor.css">##' \
-            -e 's#src="../#src="#g' \
-            -e 's#<script type="module" src="editor.js"></script>#<script type="module" src="public.js?v=20261014-2"></script>#' \
-            dist/v2/index.html > public-site/index.html
-          test ! -e public-site/editor.js
-          test ! -e public-site/editor.css
-          ! grep -q 'editor.js\|editor.css\|Tekststudio' public-site/index.html
+          python3 scripts/build_public.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public-site

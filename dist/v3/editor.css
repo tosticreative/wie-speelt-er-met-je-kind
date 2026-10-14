@@ -1,0 +1,16 @@
+/* Copy wrappers must not inherit old component rules targeting every span. */
+body span[data-copy]{display:contents;font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;margin:0}
+body{padding-bottom:78px} [data-copy]{overflow-wrap:anywhere}
+.editor-bar{position:fixed;inset:auto 0 0;z-index:100;background:#fff8ed;color:#11100f;border-top:2px solid #11100f;padding:12px 20px;display:flex;align-items:center;gap:12px;box-shadow:0 -3px 20px #0002;font:14px Inter,Arial,sans-serif}
+.editor-bar button,.editor-panel button{border:2px solid #11100f;padding:9px 14px;border-radius:6px;background:#fff8ed;color:#11100f;cursor:pointer;font:700 13px Inter,Arial,sans-serif}
+#save-copy{background:#fff01c}button:disabled{opacity:.45;cursor:default}.editor-bar #save-state{flex:1;font-size:12px}
+.editor-panel{position:fixed;z-index:99;right:0;top:0;bottom:70px;width:min(440px,100%);padding:22px;background:#fff8ed;color:#11100f;overflow:auto;border-left:3px solid #11100f;box-shadow:-10px 0 30px #0003;font:14px/1.5 Inter,Arial,sans-serif}
+.editor-panel[hidden]{display:none}.editor-panel header{display:flex;align-items:center;justify-content:space-between;gap:12px}.editor-panel h2{font-size:23px;margin:0}.editor-panel label{display:block;margin:16px 0;font-weight:700}.editor-panel input,.editor-panel select,.editor-panel textarea{display:block;width:100%;font:16px/1.5 Inter,Arial,sans-serif;padding:10px;border:1px solid #777;background:white;color:#111;border-radius:4px;margin-top:6px}.editor-panel textarea{resize:vertical;min-height:72px}.editor-panel .copy-field{border-top:1px solid #c5beb2;padding-top:12px}.copy-field>span{font-size:12px;font-weight:600}.editor-panel :focus-visible,.editor-bar :focus-visible{outline:3px solid #2aaee4;outline-offset:3px}
+.editing [data-copy]:hover{outline:2px dashed #2aaee4;cursor:text}.editing .hero-persona-echo{animation:none}
+body.editing span[data-copy]{display:inline;white-space:pre-wrap}
+body.editing p>span[data-copy]:only-child,body.editing h1 span[data-copy]:only-child,body.editing h2>span[data-copy]:only-child,body.editing h3>span[data-copy]:only-child{display:block}
+.editing [data-copy][contenteditable]{cursor:text;border-radius:2px;min-width:1ch}
+.editing [data-copy][contenteditable]:empty{display:inline-block;min-width:2ch;min-height:1em;outline:1px dashed #2aaee4}
+.editing [data-copy][contenteditable]:focus{outline:2px solid #2aaee4;outline-offset:4px;background:#2aaee415}
+.editing [data-copy][contenteditable]:hover{outline:1px dashed #2aaee4;outline-offset:3px}
+@media(max-width:650px){.editor-bar{flex-wrap:wrap;gap:6px;padding:8px 12px}.editor-bar>strong{display:none}.editor-bar #save-state{order:5;flex-basis:100%}.editor-panel{bottom:100px}.editor-bar button{padding:8px;font-size:12px}body{padding-bottom:100px}}
