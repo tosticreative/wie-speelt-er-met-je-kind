@@ -119,13 +119,14 @@
 main section:not(.hero) h2,
 .carousel-bio h3,
 .media-card h3,
-.action-grid h3,
 .help-grid strong,
 .risk-terms summary strong{
   font-family:var(--game);
   font-weight:400;
   letter-spacing:-.035em;
 }
+.hero h1{font-family:var(--game);font-weight:400;letter-spacing:-.04em}
+.action-grid h3{font-family:var(--body);font-weight:800;letter-spacing:-.025em}
 
 
 
