@@ -1,6 +1,6 @@
 const [{fields},savedResponse]=await Promise.all([
-  fetch('defaults.json').then(response=>response.json()),
-  fetch('content.json').then(response=>response.ok?response.json():{values:{}}).catch(()=>({values:{}}))
+  fetch('defaults.json',{cache:'no-store'}).then(response=>response.json()),
+  fetch('content.json',{cache:'no-store'}).then(response=>response.ok?response.json():{values:{}}).catch(()=>({values:{}}))
 ]);
 
 const values={

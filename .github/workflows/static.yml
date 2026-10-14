@@ -29,7 +29,7 @@ jobs:
             -e 's#href="../styles.css"#href="styles.css"#' \
             -e 's#<link rel="stylesheet" href="editor.css">##' \
             -e 's#src="../#src="#g' \
-            -e 's#<script type="module" src="editor.js"></script>#<script type="module" src="public.js"></script>#' \
+            -e 's#<script type="module" src="editor.js"></script>#<script type="module" src="public.js?v=20261014-2"></script>#' \
             dist/v2/index.html > public-site/index.html
           test ! -e public-site/editor.js
           test ! -e public-site/editor.css
