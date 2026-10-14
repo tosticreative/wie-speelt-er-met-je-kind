@@ -117,8 +117,8 @@
     },
     "spelers.attribute.5": {
       "section": "spelers",
-      "label": "data-name: Wannaplay67",
-      "value": "Wannaplay67",
+      "label": "data-name: @Wannaplay67",
+      "value": "@Wannaplay67",
       "attribute": "data-name"
     },
     "spelers.attribute.6": {
@@ -129,20 +129,20 @@
     },
     "spelers.attribute.7": {
       "section": "spelers",
-      "label": "aria-label: Selecteer Wannaplay67",
-      "value": "Selecteer Wannaplay67",
+      "label": "aria-label: Selecteer @Wannaplay67",
+      "value": "Selecteer @Wannaplay67",
       "attribute": "aria-label"
     },
     "spelers.attribute.8": {
       "section": "spelers",
       "label": "alt: Campagnepersonage Wannaplay67",
-      "value": "Fictief campagnepersonage Wannaplay67.",
+      "value": "Fictief campagnepersonage @Wannaplay67.",
       "attribute": "alt"
     },
     "spelers.attribute.9": {
       "section": "spelers",
-      "label": "data-name: Mr Razor",
-      "value": "Mr Razor",
+      "label": "data-name: @MrRazor",
+      "value": "@MrRazor",
       "attribute": "data-name"
     },
     "spelers.attribute.10": {
@@ -153,20 +153,20 @@
     },
     "spelers.attribute.11": {
       "section": "spelers",
-      "label": "aria-label: Selecteer Mr Razor",
-      "value": "Selecteer Mr Razor",
+      "label": "aria-label: Selecteer @MrRazor",
+      "value": "Selecteer @MrRazor",
       "attribute": "aria-label"
     },
     "spelers.attribute.12": {
       "section": "spelers",
       "label": "alt: Campagnepersonage Mr Razor",
-      "value": "Fictief campagnepersonage Mr Razor.",
+      "value": "Fictief campagnepersonage @MrRazor.",
       "attribute": "alt"
     },
     "spelers.attribute.13": {
       "section": "spelers",
-      "label": "data-name: BestFriend_XXX",
-      "value": "BestFriend_XXX",
+      "label": "data-name: @BestFriend_XXX",
+      "value": "@BestFriend_XXX",
       "attribute": "data-name"
     },
     "spelers.attribute.14": {
@@ -177,20 +177,20 @@
     },
     "spelers.attribute.15": {
       "section": "spelers",
-      "label": "aria-label: Selecteer BestFriend_XXX",
-      "value": "Selecteer BestFriend_XXX",
+      "label": "aria-label: Selecteer @BestFriend_XXX",
+      "value": "Selecteer @BestFriend_XXX",
       "attribute": "aria-label"
     },
     "spelers.attribute.16": {
       "section": "spelers",
       "label": "alt: Campagnepersonage BestFriend_XXX",
-      "value": "Fictief campagnepersonage BestFriend_XXX.",
+      "value": "Fictief campagnepersonage @BestFriend_XXX.",
       "attribute": "alt"
     },
     "spelers.attribute.17": {
       "section": "spelers",
-      "label": "data-name: Meet me Outside88",
-      "value": "Meet me Outside88",
+      "label": "data-name: @MeetMeOutside88",
+      "value": "@MeetMeOutside88",
       "attribute": "data-name"
     },
     "spelers.attribute.18": {
@@ -201,20 +201,20 @@
     },
     "spelers.attribute.19": {
       "section": "spelers",
-      "label": "aria-label: Selecteer Meet me Outside88",
-      "value": "Selecteer Meet me Outside88",
+      "label": "aria-label: Selecteer @MeetMeOutside88",
+      "value": "Selecteer @MeetMeOutside88",
       "attribute": "aria-label"
     },
     "spelers.attribute.20": {
       "section": "spelers",
       "label": "alt: Campagnepersonage Meet me Outside88",
-      "value": "Fictief campagnepersonage Meet me Outside88.",
+      "value": "Fictief campagnepersonage @MeetMeOutside88.",
       "attribute": "alt"
     },
     "spelers.attribute.21": {
       "section": "spelers",
-      "label": "data-name: OnlymeOnline",
-      "value": "OnlymeOnline",
+      "label": "data-name: @OnlymeOnline",
+      "value": "@OnlymeOnline",
       "attribute": "data-name"
     },
     "spelers.attribute.22": {
@@ -225,14 +225,14 @@
     },
     "spelers.attribute.23": {
       "section": "spelers",
-      "label": "aria-label: Selecteer OnlymeOnline",
-      "value": "Selecteer OnlymeOnline",
+      "label": "aria-label: Selecteer @OnlymeOnline",
+      "value": "Selecteer @OnlymeOnline",
       "attribute": "aria-label"
     },
     "spelers.attribute.24": {
       "section": "spelers",
       "label": "alt: Campagnepersonage OnlymeOnline",
-      "value": "Fictief campagnepersonage OnlymeOnline.",
+      "value": "Fictief campagnepersonage @OnlymeOnline.",
       "attribute": "alt"
     },
     "spelers.attribute.25": {
@@ -925,31 +925,31 @@
       "section": "spelers",
       "label": "Navigatiebolletje 1",
       "attribute": "aria-label",
-      "value": "Toon Wannaplay67"
+      "value": "Toon @Wannaplay67"
     },
     "avatars.dot.1": {
       "section": "spelers",
       "label": "Navigatiebolletje 2",
       "attribute": "aria-label",
-      "value": "Toon Mr Razor"
+      "value": "Toon @MrRazor"
     },
     "avatars.dot.2": {
       "section": "spelers",
       "label": "Navigatiebolletje 3",
       "attribute": "aria-label",
-      "value": "Toon BestFriend_XXX"
+      "value": "Toon @BestFriend_XXX"
     },
     "avatars.dot.3": {
       "section": "spelers",
       "label": "Navigatiebolletje 4",
       "attribute": "aria-label",
-      "value": "Toon Meet me Outside88"
+      "value": "Toon @MeetMeOutside88"
     },
     "avatars.dot.4": {
       "section": "spelers",
       "label": "Navigatiebolletje 5",
       "attribute": "aria-label",
-      "value": "Toon OnlymeOnline"
+      "value": "Toon @OnlymeOnline"
     }
   }
 }
