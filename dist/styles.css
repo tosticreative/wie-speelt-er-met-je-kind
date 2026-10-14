@@ -113,6 +113,7 @@
 .hero-title-question{color:var(--yellow)}
 .hero .lead{max-width:540px;margin:0 0 30px}
 .hero-scene{height:560px;align-self:center;min-width:0}
+.hero-avatar-tag{position:absolute;z-index:4;right:-3%;top:54%;color:var(--yellow);font-family:var(--head);font-size:clamp(25px,2.45vw,40px);font-weight:900;line-height:1;text-transform:none;letter-spacing:-.035em;white-space:nowrap;transform:rotate(-3deg);text-shadow:3px 3px 0 #11100f,-2px -2px 0 #11100f,2px -2px 0 #11100f,-2px 2px 0 #11100f}
 
 
 
@@ -127,6 +128,7 @@
   .hero{grid-template-columns:1fr;row-gap:36px;padding-block:42px}
   .hero h1{font-size:clamp(42px,7.6vw,62px)}
   .hero-scene{width:min(100%,510px);height:500px;justify-self:center}
+  .hero-avatar-tag{right:2%;top:56%;font-size:clamp(25px,6vw,36px)}
 
 
 }
@@ -135,6 +137,7 @@
   .hero h1{font-size:clamp(32px,9.25vw,48px);line-height:1.04}
   .hero .lead{font-size:17px;margin-bottom:26px}
   .hero-scene{height:clamp(330px,102.5vw,400px)}
+  .hero-avatar-tag{right:0;top:58%;font-size:clamp(22px,7vw,31px)}
 
 
 
