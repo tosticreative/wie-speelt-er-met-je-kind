@@ -25,3 +25,4 @@ document.querySelectorAll('[data-copy-attrs]').forEach(element=>{
 });
 
 await import('./app.js?v=glitch3');
+await import('./analytics.js?v=1');

@@ -911,6 +911,41 @@
       "label": "Over deze website",
       "value": "Over deze website"
     },
+    "analytics.text.1": {
+      "section": "analytics",
+      "label": "Label privacy",
+      "value": "PRIVACY"
+    },
+    "analytics.text.2": {
+      "section": "analytics",
+      "label": "Titel meettoestemming",
+      "value": "Help ons de campagne beter te maken"
+    },
+    "analytics.text.3": {
+      "section": "analytics",
+      "label": "Uitleg meettoestemming",
+      "value": "Met jouw toestemming meten we anoniem welke pagina’s en knoppen nuttig zijn, en hoe bezoekers de website vinden. We sturen geen namen, berichten of andere persoonlijke informatie mee."
+    },
+    "analytics.text.4": {
+      "section": "analytics",
+      "label": "Link Google privacy",
+      "value": "Lees hoe Google gegevens gebruikt ↗"
+    },
+    "analytics.text.5": {
+      "section": "analytics",
+      "label": "Knop geen toestemming",
+      "value": "Nee, liever niet"
+    },
+    "analytics.text.6": {
+      "section": "analytics",
+      "label": "Knop toestemming",
+      "value": "Ja, meten mag"
+    },
+    "analytics.text.7": {
+      "section": "analytics",
+      "label": "Instellingenlink privacy",
+      "value": "Privacy en metingen"
+    },
     "avatars.dot.0": {
       "section": "spelers",
       "label": "Navigatiebolletje 1",
