@@ -24,4 +24,4 @@ document.querySelectorAll('[data-copy-attrs]').forEach(element=>{
   });
 });
 
-await import('./app.js?v=glitch2');
+await import('./app.js?v=glitch3');

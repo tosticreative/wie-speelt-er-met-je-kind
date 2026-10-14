@@ -206,3 +206,35 @@ body.v3 :is(a,button,summary,[tabindex]):focus-visible{
   filter:drop-shadow(-8px 0 0 #f33bc9) drop-shadow(8px 0 0 #2aaee4) saturate(1.7);
 }
 @media(prefers-reduced-motion:reduce){.v3 .avatar-glitch-layer{display:none}}
+
+/* The selected character and hero animate independently of JS timers. */
+@media(prefers-reduced-motion:no-preference){
+  .v3 .hero-identity>.avatar-glitch-layer,
+  .v3 .persona-slide.is-current>.avatar-glitch-layer{
+    animation:avatar-signal 3.2s steps(1,end) infinite;
+  }
+  .v3 .hero-persona-main,.v3 .persona-slide.is-current>img:not(.avatar-glitch-layer){
+    animation:avatar-jitter 3.2s steps(1,end) infinite;
+  }
+}
+@keyframes avatar-signal{
+  0%,27%,100%{opacity:0;transform:none;clip-path:inset(0)}
+  3%{opacity:1;transform:translateX(-18px);clip-path:inset(8% 0 57% 0)}
+  10%{opacity:.95;transform:translateX(16px);clip-path:inset(38% 0 27% 0)}
+  17%{opacity:1;transform:translateX(-12px);clip-path:inset(65% 0 7% 0)}
+  23%{opacity:.8;transform:translateX(9px);clip-path:inset(20% 0 46% 0)}
+}
+@keyframes avatar-jitter{
+  0%,27%,100%{translate:0 0}
+  3%{translate:-3px 0}
+  10%{translate:3px 0}
+  17%{translate:-2px 0}
+  23%{translate:1px 0}
+}
+@media(max-width:850px){
+  .v3 .hero{padding-top:24px;gap:16px;min-height:0}
+  .v3 .hero h1{font-size:clamp(25px,8.4vw,42px);line-height:1.02;margin:0}
+  .v3 .hero .hero-scene{height:clamp(160px,42svh,330px);width:min(82%,340px);flex-shrink:0}
+  .v3 .hero-avatar-tag{font-size:clamp(19px,5.8vw,28px)}
+  .v3 .hero .lead{margin-top:8px}
+}
