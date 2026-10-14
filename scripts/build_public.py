@@ -7,7 +7,7 @@ root = Path(__file__).resolve().parents[1]
 out = root / "public-site"
 out.mkdir(exist_ok=False)
 for source in (root / "dist").iterdir():
-    if source.is_file() and source.suffix in {".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".css", ".txt"}:
+    if source.is_file() and source.suffix in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico", ".css", ".txt"}:
         shutil.copy2(source, out / source.name)
 for name in ("app.js", "public.js", "analytics.js", "defaults.json", "v3.css", "cursor-target.svg", "cursor-arrow.svg"):
     shutil.copy2(root / "dist/v3" / name, out / name)
