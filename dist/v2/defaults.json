@@ -1,0 +1,994 @@
+{
+  "schema": 1,
+  "fields": {
+    "algemeen.attribute.1": {
+      "section": "algemeen",
+      "label": "content: Wie speelt er met je kind? Lees over risico’s van online contact ",
+      "value": "Wie speelt er met je kind? Lees over risico’s van online contact op Roblox, vragen voor thuis en hulp bij online misbruik.",
+      "attribute": "content"
+    },
+    "metadata.text.1": {
+      "section": "metadata",
+      "label": "Wie speelt er met je kind?",
+      "value": "Wie speelt er met je kind?"
+    },
+    "metadata.text.2": {
+      "section": "metadata",
+      "label": "Ga naar de inhoud",
+      "value": "Ga naar de inhoud"
+    },
+    "site-header.text.1": {
+      "section": "site-header",
+      "label": "Wiespeeltermetjekind.nl",
+      "value": "Wiespeeltermetjekind.nl"
+    },
+    "site-header.attribute.2": {
+      "section": "site-header",
+      "label": "aria-label: Hoofdnavigatie",
+      "value": "Hoofdnavigatie",
+      "attribute": "aria-label"
+    },
+    "site-header.text.2": {
+      "section": "site-header",
+      "label": "De spelers",
+      "value": "De spelers"
+    },
+    "site-header.text.3": {
+      "section": "site-header",
+      "label": "Wat kun je doen?",
+      "value": "Wat kun je doen?"
+    },
+    "site-header.text.4": {
+      "section": "site-header",
+      "label": "Hulp",
+      "value": "Hulp"
+    },
+    "top.text.1": {
+      "section": "top",
+      "label": "Je kind speelt online.",
+      "value": "Je kind speelt online."
+    },
+    "top.text.2": {
+      "section": "top",
+      "label": "Maar wie speelt er met je kind?",
+      "value": "Maar wie speelt er met je kind?"
+    },
+    "top.text.3": {
+      "section": "top",
+      "label": "Op Roblox speelt je kind samen met anderen. Wie er achter hun avatars zitten, we",
+      "value": "Op Roblox speelt je kind samen met anderen. Wie er achter hun avatars zitten, weet je niet altijd. Een gesprek kan uitlopen op verzoeken om intieme beelden of op chantage. Waar kun je als ouder op letten?"
+    },
+    "top.text.4": {
+      "section": "top",
+      "label": "De onzichtbare kant van Roblox ↓",
+      "value": "De onzichtbare kant van Roblox ↓"
+    },
+    "top.text.5": {
+      "section": "top",
+      "label": "Maak je je zorgen? Dit kun je doen →",
+      "value": "Maak je je zorgen? Dit kun je doen →"
+    },
+    "top.text.6": {
+      "section": "top",
+      "label": "Achtergrond:",
+      "value": "Achtergrond: "
+    },
+    "top.text.7": {
+      "section": "top",
+      "label": "NJi over online misbruik ↗",
+      "value": "NJi over online misbruik ↗"
+    },
+    "top.text.8": {
+      "section": "top",
+      "label": "·",
+      "value": " · "
+    },
+    "top.text.9": {
+      "section": "top",
+      "label": "Politie/OM over een zaak met contact via Roblox, 23 juli 2026 ↗",
+      "value": "Politie/OM over een zaak met contact via Roblox, 23 juli 2026 ↗"
+    },
+    "top.attribute.3": {
+      "section": "top",
+      "label": "alt: Fictief campagnepersonage Wannaplay67 met gekruiste armen.",
+      "value": "Fictief campagnepersonage Wannaplay67 met gekruiste armen.",
+      "attribute": "alt"
+    },
+    "spelers.text.1": {
+      "section": "spelers",
+      "label": "Wie speelt er met je kind?",
+      "value": "Wie speelt er met je kind?"
+    },
+    "spelers.text.2": {
+      "section": "spelers",
+      "label": "Wie vraagt om privébeelden? Wie wil dat een gesprek geheim blijft? Deze fictieve",
+      "value": "Wie vraagt om privébeelden? Wie wil dat een gesprek geheim blijft? Deze fictieve personages laten zien hoe iemand je kind onder druk kan zetten."
+    },
+    "spelers.attribute.4": {
+      "section": "spelers",
+      "label": "aria-label: Campagnepersonages",
+      "value": "Campagnepersonages",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.5": {
+      "section": "spelers",
+      "label": "data-name: Wannaplay67",
+      "value": "Wannaplay67",
+      "attribute": "data-name"
+    },
+    "spelers.attribute.6": {
+      "section": "spelers",
+      "label": "data-bio: Ik dreig je privébeelden te delen als je niet doet wat ik zeg.",
+      "value": "Ik dreig je privébeelden te delen als je niet doet wat ik zeg.",
+      "attribute": "data-bio"
+    },
+    "spelers.attribute.7": {
+      "section": "spelers",
+      "label": "aria-label: Selecteer Wannaplay67",
+      "value": "Selecteer Wannaplay67",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.8": {
+      "section": "spelers",
+      "label": "alt: Campagnepersonage Wannaplay67",
+      "value": "Fictief campagnepersonage Wannaplay67.",
+      "attribute": "alt"
+    },
+    "spelers.attribute.9": {
+      "section": "spelers",
+      "label": "data-name: Mr Razor",
+      "value": "Mr Razor",
+      "attribute": "data-name"
+    },
+    "spelers.attribute.10": {
+      "section": "spelers",
+      "label": "data-bio: Ik dwing je jezelf pijn te doen en laat je het filmen.",
+      "value": "Ik dwing je jezelf pijn te doen en laat je het filmen.",
+      "attribute": "data-bio"
+    },
+    "spelers.attribute.11": {
+      "section": "spelers",
+      "label": "aria-label: Selecteer Mr Razor",
+      "value": "Selecteer Mr Razor",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.12": {
+      "section": "spelers",
+      "label": "alt: Campagnepersonage Mr Razor",
+      "value": "Fictief campagnepersonage Mr Razor.",
+      "attribute": "alt"
+    },
+    "spelers.attribute.13": {
+      "section": "spelers",
+      "label": "data-name: BestFriend_XXX",
+      "value": "BestFriend_XXX",
+      "attribute": "data-name"
+    },
+    "spelers.attribute.14": {
+      "section": "spelers",
+      "label": "data-bio: Ik win je vertrouwen. Daarna zet ik je onder druk om seksuele din",
+      "value": "Ik win je vertrouwen. Daarna zet ik je onder druk om seksuele dingen te doen.",
+      "attribute": "data-bio"
+    },
+    "spelers.attribute.15": {
+      "section": "spelers",
+      "label": "aria-label: Selecteer BestFriend_XXX",
+      "value": "Selecteer BestFriend_XXX",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.16": {
+      "section": "spelers",
+      "label": "alt: Campagnepersonage BestFriend_XXX",
+      "value": "Fictief campagnepersonage BestFriend_XXX.",
+      "attribute": "alt"
+    },
+    "spelers.attribute.17": {
+      "section": "spelers",
+      "label": "data-name: Meet me Outside88",
+      "value": "Meet me Outside88",
+      "attribute": "data-name"
+    },
+    "spelers.attribute.18": {
+      "section": "spelers",
+      "label": "data-bio: Ik zoek uit waar je bent en probeer je alleen te ontmoeten.",
+      "value": "Ik zoek uit waar je bent en probeer je alleen te ontmoeten.",
+      "attribute": "data-bio"
+    },
+    "spelers.attribute.19": {
+      "section": "spelers",
+      "label": "aria-label: Selecteer Meet me Outside88",
+      "value": "Selecteer Meet me Outside88",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.20": {
+      "section": "spelers",
+      "label": "alt: Campagnepersonage Meet me Outside88",
+      "value": "Fictief campagnepersonage Meet me Outside88.",
+      "attribute": "alt"
+    },
+    "spelers.attribute.21": {
+      "section": "spelers",
+      "label": "data-name: OnlymeOnline",
+      "value": "OnlymeOnline",
+      "attribute": "data-name"
+    },
+    "spelers.attribute.22": {
+      "section": "spelers",
+      "label": "data-bio: Ik wil dat je alleen nog met mij praat. En doet wat ik zeg.",
+      "value": "Ik wil dat je alleen nog met mij praat. En doet wat ik zeg.",
+      "attribute": "data-bio"
+    },
+    "spelers.attribute.23": {
+      "section": "spelers",
+      "label": "aria-label: Selecteer OnlymeOnline",
+      "value": "Selecteer OnlymeOnline",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.24": {
+      "section": "spelers",
+      "label": "alt: Campagnepersonage OnlymeOnline",
+      "value": "Fictief campagnepersonage OnlymeOnline.",
+      "attribute": "alt"
+    },
+    "spelers.attribute.25": {
+      "section": "spelers",
+      "label": "aria-label: Vorig personage",
+      "value": "Vorig personage",
+      "attribute": "aria-label"
+    },
+    "spelers.text.3": {
+      "section": "spelers",
+      "label": "←",
+      "value": "←"
+    },
+    "spelers.attribute.26": {
+      "section": "spelers",
+      "label": "aria-label: Kies een personage",
+      "value": "Kies een personage",
+      "attribute": "aria-label"
+    },
+    "spelers.attribute.27": {
+      "section": "spelers",
+      "label": "aria-label: Volgend personage",
+      "value": "Volgend personage",
+      "attribute": "aria-label"
+    },
+    "spelers.text.4": {
+      "section": "spelers",
+      "label": "→",
+      "value": "→"
+    },
+    "spelers.text.7": {
+      "section": "spelers",
+      "label": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet",
+      "value": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet; aan een avatar zie je niet wie erachter zit."
+    },
+    "spelers.text.8": {
+      "section": "spelers",
+      "label": "Achtergrond:",
+      "value": "Achtergrond: "
+    },
+    "grooming.text.1": {
+      "section": "grooming",
+      "label": "Wat gebeurt er online?",
+      "value": "Wat gebeurt er online?"
+    },
+    "grooming.text.2": {
+      "section": "grooming",
+      "label": "Van contact naar controle.",
+      "value": "Van contact naar controle."
+    },
+    "grooming.text.3": {
+      "section": "grooming",
+      "label": "Grooming en sextortion betekenen niet hetzelfde. Bij grooming zoekt iemand conta",
+      "value": "Grooming en sextortion betekenen niet hetzelfde. Bij grooming zoekt iemand contact met seksueel misbruik als doel. Bij sextortion dreigt iemand intieme beelden te verspreiden. Ook misleiding en bedreiging kunnen een rol spelen."
+    },
+    "grooming.text.4": {
+      "section": "grooming",
+      "label": "De begrippen hieronder kunnen elkaar overlappen.",
+      "value": "De begrippen hieronder kunnen elkaar overlappen."
+    },
+    "grooming.attribute.28": {
+      "section": "grooming",
+      "label": "alt: Fictief campagnepersonage BestFriend_XXX",
+      "value": "Fictief campagnepersonage BestFriend_XXX",
+      "attribute": "alt"
+    },
+    "grooming.attribute.29": {
+      "section": "grooming",
+      "label": "aria-label: Begrippen over online misbruik",
+      "value": "Begrippen over online misbruik",
+      "attribute": "aria-label"
+    },
+    "grooming.text.5": {
+      "section": "grooming",
+      "label": "01",
+      "value": "01"
+    },
+    "grooming.text.6": {
+      "section": "grooming",
+      "label": "Grooming",
+      "value": "Grooming"
+    },
+    "grooming.text.7": {
+      "section": "grooming",
+      "label": "Vertrouwen winnen voor seksueel misbruik",
+      "value": "Vertrouwen winnen voor seksueel misbruik"
+    },
+    "grooming.text.8": {
+      "section": "grooming",
+      "label": "Bij grooming zoekt iemand contact met een kind met seksueel misbruik als doel. D",
+      "value": "Bij grooming zoekt iemand contact met een kind met seksueel misbruik als doel. Diegene probeert bijvoorbeeld het vertrouwen te winnen en kan zich "
+    },
+    "grooming.text.9": {
+      "section": "grooming",
+      "label": "voordoen als een leeftijdgenoot.",
+      "value": "voordoen als een leeftijdgenoot."
+    },
+    "grooming.text.10": {
+      "section": "grooming",
+      "label": "Het misbruik kan online gebeuren of na een ontmoeting.",
+      "value": " Het misbruik kan online gebeuren of na een ontmoeting."
+    },
+    "grooming.text.11": {
+      "section": "grooming",
+      "label": "Bron:",
+      "value": "Bron: "
+    },
+    "grooming.text.12": {
+      "section": "grooming",
+      "label": "Nederlands Jeugdinstituut — online seksueel misbruik ↗",
+      "value": "Nederlands Jeugdinstituut — online seksueel misbruik ↗"
+    },
+    "grooming.text.13": {
+      "section": "grooming",
+      "label": "02",
+      "value": "02"
+    },
+    "grooming.text.14": {
+      "section": "grooming",
+      "label": "Sextortion",
+      "value": "Sextortion"
+    },
+    "grooming.text.15": {
+      "section": "grooming",
+      "label": "Chantage met intieme beelden",
+      "value": "Chantage met intieme beelden"
+    },
+    "grooming.text.16": {
+      "section": "grooming",
+      "label": "Iemand dreigt een naaktfoto of seksueel filmpje te delen en eist geld, nieuwe be",
+      "value": "Iemand dreigt een naaktfoto of seksueel filmpje te delen en eist geld, nieuwe beelden of seksuele handelingen. Dat heet sextortion. Betaal niet en stuur geen nieuwe beelden. Vraag hulp bij Offlimits of de politie. De schuld ligt bij de chanteur."
+    },
+    "grooming.text.17": {
+      "section": "grooming",
+      "label": "Bron:",
+      "value": "Bron: "
+    },
+    "grooming.text.18": {
+      "section": "grooming",
+      "label": "Offlimits — sextortion ↗",
+      "value": "Offlimits — sextortion ↗"
+    },
+    "grooming.text.19": {
+      "section": "grooming",
+      "label": "03",
+      "value": "03"
+    },
+    "grooming.text.20": {
+      "section": "grooming",
+      "label": "Catfishing",
+      "value": "Catfishing"
+    },
+    "grooming.text.21": {
+      "section": "grooming",
+      "label": "Doen alsof je iemand anders bent",
+      "value": "Doen alsof je iemand anders bent"
+    },
+    "grooming.text.22": {
+      "section": "grooming",
+      "label": "Een nepprofiel, een gestolen foto, een verzonnen verhaal: iemand doet zich voor ",
+      "value": "Een nepprofiel, een gestolen foto, een verzonnen verhaal: iemand doet zich voor als een ander om contact te leggen en vertrouwen te winnen. Dat heet catfishing. Alleen een fantasie-avatar gebruiken valt daar niet onder."
+    },
+    "grooming.text.23": {
+      "section": "grooming",
+      "label": "Bron:",
+      "value": "Bron: "
+    },
+    "grooming.text.24": {
+      "section": "grooming",
+      "label": "Offlimits — catfishing en online contact ↗",
+      "value": "Offlimits — catfishing en online contact ↗"
+    },
+    "grooming.text.25": {
+      "section": "grooming",
+      "label": "04",
+      "value": "04"
+    },
+    "grooming.text.26": {
+      "section": "grooming",
+      "label": "Doxing",
+      "value": "Doxing"
+    },
+    "grooming.text.27": {
+      "section": "grooming",
+      "label": "Privégegevens gebruiken om te intimideren",
+      "value": "Privégegevens gebruiken om te intimideren"
+    },
+    "grooming.text.28": {
+      "section": "grooming",
+      "label": "Iemand zoekt je adres of telefoonnummer op, of verspreidt die gegevens om je ban",
+      "value": "Iemand zoekt je adres of telefoonnummer op, of verspreidt die gegevens om je bang te maken of lastig te vallen. Dat heet doxing. Een vraag naar je woonplaats is op zichzelf nog geen doxing."
+    },
+    "grooming.text.29": {
+      "section": "grooming",
+      "label": "Bron:",
+      "value": "Bron: "
+    },
+    "grooming.text.30": {
+      "section": "grooming",
+      "label": "Politie — wat is doxing? ↗",
+      "value": "Politie — wat is doxing? ↗"
+    },
+    "grooming.text.31": {
+      "section": "grooming",
+      "label": "05",
+      "value": "05"
+    },
+    "grooming.text.32": {
+      "section": "grooming",
+      "label": "Online dwang",
+      "value": "Online dwang"
+    },
+    "grooming.text.33": {
+      "section": "grooming",
+      "label": "Als een ander bepaalt wat je moet doen",
+      "value": "Als een ander bepaalt wat je moet doen"
+    },
+    "grooming.text.34": {
+      "section": "grooming",
+      "label": "Iemand eist dat je kind gesprekken geheimhoudt, het contact met anderen verbreek",
+      "value": "Iemand eist dat je kind gesprekken geheimhoudt, het contact met anderen verbreekt of opdrachten uitvoert. Zo kan die persoon steeds meer controle krijgen. ‘Online dwang’ is hier een beschrijving van gedrag."
+    },
+    "grooming.text.35": {
+      "section": "grooming",
+      "label": "In ernstige gevallen worden kinderen gedwongen zichzelf te verwonden. Politie en",
+      "value": "In ernstige gevallen worden kinderen gedwongen zichzelf te verwonden. Politie en OM beschrijven zulke dwang bij netwerken als 764/The Com. Niet ieder geval van online dwang heeft met die netwerken te maken."
+    },
+    "grooming.text.36": {
+      "section": "grooming",
+      "label": "Bronnen:",
+      "value": "Bronnen: "
+    },
+    "grooming.text.37": {
+      "section": "grooming",
+      "label": "NJi — macht en controle bij misbruik ↗",
+      "value": "NJi — macht en controle bij misbruik ↗"
+    },
+    "grooming.text.38": {
+      "section": "grooming",
+      "label": "·",
+      "value": " · "
+    },
+    "grooming.text.39": {
+      "section": "grooming",
+      "label": "Politie/OM — 764/The Com, 23 juli 2026 ↗",
+      "value": "Politie/OM — 764/The Com, 23 juli 2026 ↗"
+    },
+    "media.text.1": {
+      "section": "media",
+      "label": "In de media",
+      "value": "In de media"
+    },
+    "media.attribute.30": {
+      "section": "media",
+      "label": "aria-label: Bekijk Lubach over Roblox op YouTube",
+      "value": "Bekijk Lubach over Roblox op YouTube",
+      "attribute": "aria-label"
+    },
+    "media.attribute.31": {
+      "section": "media",
+      "label": "alt: Preview van Lubach over Roblox",
+      "value": "Preview van Lubach over Roblox",
+      "attribute": "alt"
+    },
+    "media.text.2": {
+      "section": "media",
+      "label": "Lubach · Video",
+      "value": "Lubach · Video"
+    },
+    "media.text.3": {
+      "section": "media",
+      "label": "Lubach over Roblox",
+      "value": "Lubach over Roblox"
+    },
+    "media.text.4": {
+      "section": "media",
+      "label": "Lubach bespreekt de risico’s van Roblox voor kinderen.",
+      "value": "Lubach bespreekt de risico’s van Roblox voor kinderen."
+    },
+    "media.text.5": {
+      "section": "media",
+      "label": "Bekijk het item ↗",
+      "value": "Bekijk het item ↗"
+    },
+    "media.attribute.32": {
+      "section": "media",
+      "label": "aria-label: Luister naar NRC Vandaag over Roblox",
+      "value": "Luister naar NRC Vandaag over Roblox",
+      "attribute": "aria-label"
+    },
+    "media.attribute.33": {
+      "section": "media",
+      "label": "alt: NRC Vandaag — podcastcover",
+      "value": "NRC Vandaag — podcastcover",
+      "attribute": "alt"
+    },
+    "media.text.6": {
+      "section": "media",
+      "label": "NRC Vandaag · Podcast · 21 min",
+      "value": "NRC Vandaag · Podcast · 21 min"
+    },
+    "media.text.7": {
+      "section": "media",
+      "label": "Roblox: welkom in het kapitalistische kinderuniversum",
+      "value": "Roblox: welkom in het kapitalistische kinderuniversum"
+    },
+    "media.text.8": {
+      "section": "media",
+      "label": "NRC Vandaag over geld uitgeven op Roblox en hoe kinderen daartoe worden verleid.",
+      "value": "NRC Vandaag over geld uitgeven op Roblox en hoe kinderen daartoe worden verleid."
+    },
+    "media.text.9": {
+      "section": "media",
+      "label": "Luister naar de aflevering ↗",
+      "value": "Luister naar de aflevering ↗"
+    },
+    "doen.text.1": {
+      "section": "doen",
+      "label": "Thuis begint het gesprek",
+      "value": "Thuis begint het gesprek"
+    },
+    "doen.text.2": {
+      "section": "doen",
+      "label": "Kijk mee. Vraag door.",
+      "value": "Kijk mee. Vraag door."
+    },
+    "doen.text.3": {
+      "section": "doen",
+      "label": "1",
+      "value": "1"
+    },
+    "doen.text.4": {
+      "section": "doen",
+      "label": "Kijk eens mee",
+      "value": "Kijk eens mee"
+    },
+    "doen.text.5": {
+      "section": "doen",
+      "label": "Vraag je kind om Roblox te laten zien. Wat speel je? Met wie? En waar praten jul",
+      "value": "Vraag je kind om Roblox te laten zien. Wat speel je? Met wie? En waar praten jullie over?"
+    },
+    "doen.text.6": {
+      "section": "doen",
+      "label": "Meer over veilig gamen ↗",
+      "value": "Meer over veilig gamen ↗"
+    },
+    "doen.text.7": {
+      "section": "doen",
+      "label": "2",
+      "value": "2"
+    },
+    "doen.text.8": {
+      "section": "doen",
+      "label": "Vraag naar het contact",
+      "value": "Vraag naar het contact"
+    },
+    "doen.text.9": {
+      "section": "doen",
+      "label": "Mag ik eens meekijken?",
+      "value": "Mag ik eens meekijken?"
+    },
+    "doen.text.10": {
+      "section": "doen",
+      "label": "Met wie speel je?",
+      "value": "Met wie speel je?"
+    },
+    "doen.text.11": {
+      "section": "doen",
+      "label": "Wat weten die spelers over jou?",
+      "value": "Wat weten die spelers over jou?"
+    },
+    "doen.text.12": {
+      "section": "doen",
+      "label": "Praten jullie ook via andere apps?",
+      "value": "Praten jullie ook via andere apps?"
+    },
+    "doen.text.13": {
+      "section": "doen",
+      "label": "Gesprekstips van Offlimits ↗",
+      "value": "Gesprekstips van Offlimits ↗"
+    },
+    "doen.text.14": {
+      "section": "doen",
+      "label": "3",
+      "value": "3"
+    },
+    "doen.text.15": {
+      "section": "doen",
+      "label": "Maak afspraken met je kind",
+      "value": "Maak afspraken met je kind"
+    },
+    "doen.text.16": {
+      "section": "doen",
+      "label": "Deel geen adres, school of andere privégegevens met mensen die je alleen online ",
+      "value": "Deel geen adres, school of andere privégegevens met mensen die je alleen online kent."
+    },
+    "doen.text.17": {
+      "section": "doen",
+      "label": "Stuur geen intieme beelden.",
+      "value": "Stuur geen intieme beelden."
+    },
+    "doen.text.18": {
+      "section": "doen",
+      "label": "Spreek niet alleen af met iemand die je online hebt ontmoet.",
+      "value": "Spreek niet alleen af met iemand die je online hebt ontmoet."
+    },
+    "doen.text.19": {
+      "section": "doen",
+      "label": "Kom naar mij als iets vervelend voelt, ook als je iets hebt gedaan wat niet moch",
+      "value": "Kom naar mij als iets vervelend voelt, ook als je iets hebt gedaan wat niet mocht."
+    },
+    "doen.text.20": {
+      "section": "doen",
+      "label": "Roblox ouderhandleiding ↗",
+      "value": "Roblox ouderhandleiding ↗"
+    },
+    "doen.text.21": {
+      "section": "doen",
+      "label": "Bespreek welke afspraken bij de leeftijd van je kind passen. Ook met afspraken k",
+      "value": "Bespreek welke afspraken bij de leeftijd van je kind passen. Ook met afspraken kan er iets misgaan. Je kind moet dan bij je terechtkunnen. Achtergrond: "
+    },
+    "doen.text.22": {
+      "section": "doen",
+      "label": "Offlimits — praten over internetgebruik ↗",
+      "value": "Offlimits — praten over internetgebruik ↗"
+    },
+    "doen.text.23": {
+      "section": "doen",
+      "label": ".",
+      "value": "."
+    },
+    "hulp.text.1": {
+      "section": "hulp",
+      "label": "Hulp bij online misbruik",
+      "value": "Hulp bij online misbruik"
+    },
+    "hulp.text.2": {
+      "section": "hulp",
+      "label": "Maak je je zorgen?",
+      "value": "Maak je je zorgen?"
+    },
+    "hulp.text.3": {
+      "section": "hulp",
+      "label": "Wordt je kind bedreigd of onder druk gezet? Je hoeft niet eerst precies te weten",
+      "value": "Wordt je kind bedreigd of onder druk gezet? Je hoeft niet eerst precies te weten wat er is gebeurd om hulp te vragen."
+    },
+    "hulp.text.4": {
+      "section": "hulp",
+      "label": "1",
+      "value": "1"
+    },
+    "hulp.text.5": {
+      "section": "hulp",
+      "label": "Luister zonder verwijt.",
+      "value": "Luister zonder verwijt."
+    },
+    "hulp.text.6": {
+      "section": "hulp",
+      "label": "Laat je kind vertellen en probeer rustig te blijven. Zeg dat je blij bent dat he",
+      "value": "Laat je kind vertellen en probeer rustig te blijven. Zeg dat je blij bent dat het naar je toe komt. Wat er ook is gebeurd: misbruik is niet de schuld van je kind. Bespreek samen welke hulp nodig is."
+    },
+    "hulp.text.7": {
+      "section": "hulp",
+      "label": "Advies van Offlimits voor ouders ↗",
+      "value": "Advies van Offlimits voor ouders ↗"
+    },
+    "hulp.text.8": {
+      "section": "hulp",
+      "label": "2",
+      "value": "2"
+    },
+    "hulp.text.9": {
+      "section": "hulp",
+      "label": "Bewaar berichten en gegevens",
+      "value": "Bewaar berichten en gegevens"
+    },
+    "hulp.text.10": {
+      "section": "hulp",
+      "label": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten, maar stuur int",
+      "value": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten, maar stuur intieme beelden niet door. Vraag Offlimits of de politie hoe je bewijs veilig bewaart en wanneer je het account kunt melden en blokkeren."
+    },
+    "hulp.text.11": {
+      "section": "hulp",
+      "label": "Offlimits — bewijs verzamelen ↗",
+      "value": "Offlimits — bewijs verzamelen ↗"
+    },
+    "hulp.text.12": {
+      "section": "hulp",
+      "label": "3",
+      "value": "3"
+    },
+    "hulp.text.13": {
+      "section": "hulp",
+      "label": "Vraag hulp",
+      "value": "Vraag hulp"
+    },
+    "hulp.text.14": {
+      "section": "hulp",
+      "label": "Neem contact op met Offlimits bij online misbruik. Wordt je kind gechanteerd? Be",
+      "value": "Neem contact op met Offlimits bij online misbruik. Wordt je kind gechanteerd? Betaal niet en stuur geen nieuwe beelden. De politie kan uitleggen hoe je een melding of aangifte doet."
+    },
+    "hulp.text.15": {
+      "section": "hulp",
+      "label": "Offlimits — hulp bij sextortion ↗",
+      "value": "Offlimits — hulp bij sextortion ↗"
+    },
+    "hulp.text.16": {
+      "section": "hulp",
+      "label": "Vraag hulp bij Offlimits ↗",
+      "value": "Vraag hulp bij Offlimits ↗"
+    },
+    "hulp.text.17": {
+      "section": "hulp",
+      "label": "Direct gevaar? Bel",
+      "value": "Direct gevaar? Bel "
+    },
+    "hulp.text.18": {
+      "section": "hulp",
+      "label": "112",
+      "value": "112"
+    },
+    "hulp.text.19": {
+      "section": "hulp",
+      "label": ".",
+      "value": "."
+    },
+    "hulp.text.20": {
+      "section": "hulp",
+      "label": "Geen spoed, wel politie:",
+      "value": "Geen spoed, wel politie: "
+    },
+    "hulp.text.21": {
+      "section": "hulp",
+      "label": "0900-8844",
+      "value": "0900-8844"
+    },
+    "hulp.text.22": {
+      "section": "hulp",
+      "label": ".",
+      "value": ". "
+    },
+    "hulp.text.23": {
+      "section": "hulp",
+      "label": "Politie ↗",
+      "value": "Politie ↗"
+    },
+    "hulp.text.24": {
+      "section": "hulp",
+      "label": "Meer informatie en hulp",
+      "value": "Meer informatie en hulp"
+    },
+    "hulp.text.25": {
+      "section": "hulp",
+      "label": "NJi",
+      "value": "NJi"
+    },
+    "hulp.text.26": {
+      "section": "hulp",
+      "label": "Over opvoeden met media, schermtijd en afspraken thuis.",
+      "value": "Over opvoeden met media, schermtijd en afspraken thuis."
+    },
+    "hulp.text.27": {
+      "section": "hulp",
+      "label": "Lees verder ↗",
+      "value": "Lees verder ↗"
+    },
+    "hulp.text.28": {
+      "section": "hulp",
+      "label": "Netwerk Mediawijsheid",
+      "value": "Netwerk Mediawijsheid"
+    },
+    "hulp.text.29": {
+      "section": "hulp",
+      "label": "Over gamen, privacy en veilig mediagebruik.",
+      "value": "Over gamen, privacy en veilig mediagebruik."
+    },
+    "hulp.text.30": {
+      "section": "hulp",
+      "label": "Lees verder ↗",
+      "value": "Lees verder ↗"
+    },
+    "hulp.text.31": {
+      "section": "hulp",
+      "label": "Offlimits",
+      "value": "Offlimits"
+    },
+    "hulp.text.32": {
+      "section": "hulp",
+      "label": "Advies en hulp als je kind online wordt lastiggevallen, bedreigd of misbruikt.",
+      "value": "Advies en hulp als je kind online wordt lastiggevallen, bedreigd of misbruikt."
+    },
+    "hulp.text.33": {
+      "section": "hulp",
+      "label": "Vraag hulp ↗",
+      "value": "Vraag hulp ↗"
+    },
+    "over.text.1": {
+      "section": "over",
+      "label": "Een initiatief van Tosti Creative.",
+      "value": "Een initiatief van Tosti Creative."
+    },
+    "over.text.2": {
+      "section": "over",
+      "label": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik.",
+      "value": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik. Met fictieve personages, uitleg en vragen voor thuis. Voor ouders die willen weten met wie hun kind speelt en praat."
+    },
+    "over.text.3": {
+      "section": "over",
+      "label": "Meedoen met deze campagne?",
+      "value": "Meedoen met deze campagne?"
+    },
+    "over.text.4": {
+      "section": "over",
+      "label": "Neem contact op →",
+      "value": "Neem contact op →"
+    },
+    "verantwoording.text.1": {
+      "section": "verantwoording",
+      "label": "Over deze website",
+      "value": "Over deze website"
+    },
+    "verantwoording.text.2": {
+      "section": "verantwoording",
+      "label": "Tosti Creative maakte deze campagne.",
+      "value": "Tosti Creative maakte deze campagne."
+    },
+    "verantwoording.text.3": {
+      "section": "verantwoording",
+      "label": "Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituu",
+      "value": " Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituut, Offlimits en de politie. De links staan bij de teksten. De verwijzingen betekenen niet dat deze organisaties de campagne onderschrijven."
+    },
+    "verantwoording.text.4": {
+      "section": "verantwoording",
+      "label": "Tekst en bronnen bijgewerkt op",
+      "value": "Tekst en bronnen bijgewerkt op "
+    },
+    "verantwoording.text.5": {
+      "section": "verantwoording",
+      "label": "14 oktober 2026",
+      "value": "14 oktober 2026"
+    },
+    "verantwoording.text.6": {
+      "section": "verantwoording",
+      "label": ". Een externe deskundige heeft deze versie nog niet beoordeeld. De informatie is",
+      "value": ". Een externe deskundige heeft deze versie nog niet beoordeeld. De informatie is algemeen. Voor advies over jouw situatie kun je terecht bij de genoemde hulporganisaties."
+    },
+    "verantwoording.text.7": {
+      "section": "verantwoording",
+      "label": "Klopt er iets niet?",
+      "value": "Klopt er iets niet? "
+    },
+    "verantwoording.text.8": {
+      "section": "verantwoording",
+      "label": "Laat het Tosti Creative weten ↗",
+      "value": "Laat het Tosti Creative weten ↗"
+    },
+    "verantwoording.text.9": {
+      "section": "verantwoording",
+      "label": ". Stuur geen intieme beelden of gevoelige gegevens over een kind mee. Zoek je hu",
+      "value": ". Stuur geen intieme beelden of gevoelige gegevens over een kind mee. Zoek je hulp voor jezelf of je kind? "
+    },
+    "verantwoording.text.10": {
+      "section": "verantwoording",
+      "label": "Bekijk waar je terechtkunt",
+      "value": "Bekijk waar je terechtkunt"
+    },
+    "verantwoording.text.11": {
+      "section": "verantwoording",
+      "label": ".",
+      "value": "."
+    },
+    "site-footer.text.1": {
+      "section": "site-footer",
+      "label": "wiespeeltermetjekind.nl",
+      "value": "wiespeeltermetjekind.nl"
+    },
+    "site-footer.text.2": {
+      "section": "site-footer",
+      "label": "Een initiatief van Tosti Creative.",
+      "value": "Een initiatief van Tosti Creative."
+    },
+    "site-footer.attribute.34": {
+      "section": "site-footer",
+      "label": "aria-label: Footernavigatie",
+      "value": "Footernavigatie",
+      "attribute": "aria-label"
+    },
+    "site-footer.text.3": {
+      "section": "site-footer",
+      "label": "Begrippen en bronnen",
+      "value": "Begrippen en bronnen"
+    },
+    "site-footer.text.4": {
+      "section": "site-footer",
+      "label": "Hulp zoeken",
+      "value": "Hulp zoeken"
+    },
+    "site-footer.text.5": {
+      "section": "site-footer",
+      "label": "Meedoen",
+      "value": "Meedoen"
+    },
+    "site-footer.text.6": {
+      "section": "site-footer",
+      "label": "Over deze website",
+      "value": "Over deze website"
+    },
+    "avatars.source.0": {
+      "section": "spelers",
+      "label": "Bron bij personage 1",
+      "value": "Offlimits over sextortion ↗"
+    },
+    "avatars.source.1": {
+      "section": "spelers",
+      "label": "Bron bij personage 2",
+      "value": "Politie/OM over online dwang ↗"
+    },
+    "avatars.source.2": {
+      "section": "spelers",
+      "label": "Bron bij personage 3",
+      "value": "NJi over grooming en misbruik ↗"
+    },
+    "avatars.source.3": {
+      "section": "spelers",
+      "label": "Bron bij personage 4",
+      "value": "Offlimits over ongewenst online contact ↗"
+    },
+    "avatars.source.4": {
+      "section": "spelers",
+      "label": "Bron bij personage 5",
+      "value": "NJi over macht en controle bij misbruik ↗"
+    },
+    "avatars.dot.0": {
+      "section": "spelers",
+      "label": "Navigatiebolletje 1",
+      "attribute": "aria-label",
+      "value": "Toon Wannaplay67"
+    },
+    "avatars.dot.1": {
+      "section": "spelers",
+      "label": "Navigatiebolletje 2",
+      "attribute": "aria-label",
+      "value": "Toon Mr Razor"
+    },
+    "avatars.dot.2": {
+      "section": "spelers",
+      "label": "Navigatiebolletje 3",
+      "attribute": "aria-label",
+      "value": "Toon BestFriend_XXX"
+    },
+    "avatars.dot.3": {
+      "section": "spelers",
+      "label": "Navigatiebolletje 4",
+      "attribute": "aria-label",
+      "value": "Toon Meet me Outside88"
+    },
+    "avatars.dot.4": {
+      "section": "spelers",
+      "label": "Navigatiebolletje 5",
+      "attribute": "aria-label",
+      "value": "Toon OnlymeOnline"
+    }
+  }
+}

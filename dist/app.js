@@ -24,6 +24,14 @@ if(carousel){
   const bioText=carousel.querySelector('.carousel-bio p');
   const dots=carousel.querySelector('.carousel-dots');
   const carouselVisual=carousel.querySelector('.carousel-visual');
+  const bioSource=carousel.querySelector('.persona-source a');
+  const sources=[
+    ['https://hulplijn.offlimits.nl/onderwerpen/sextortion','Offlimits over sextortion'],
+    ['https://www.politie.nl/nieuws/2026/juli/23/verdachte-20-van-verkrachting-en-mishandeling-binnen-764-com-langer-vast.html','Politie/OM over online dwang'],
+    ['https://www.nji.nl/kennis/kindermishandeling/online-seksueel-misbruik','NJi over grooming en misbruik'],
+    ['https://hulplijn.offlimits.nl/onderwerpen/online-benaderd-voor-seks','Offlimits over ongewenst online contact'],
+    ['https://www.nji.nl/kennis/kindermishandeling/online-seksueel-misbruik','NJi over macht en controle bij misbruik']
+  ];
   let current=0;
 
   slides.forEach((slide,index)=>{
@@ -47,6 +55,10 @@ if(carousel){
     current=(index+slides.length)%slides.length;
     slides.forEach((slide,slideIndex)=>{
       const distance=wrappedDistance(slideIndex);
+      // A wrapped slide must jump offstage, never travel behind the active one.
+      const previous=Number(slide.style.getPropertyValue('--position'));
+      const reposition=Math.abs(distance-previous)>1 || Math.abs(distance)>1;
+      slide.style.transition=reposition?'none':'';
       slide.style.setProperty('--position',distance);
       slide.style.setProperty('--translate',`${distance*78}%`);
       slide.dataset.distance=Math.abs(distance);
@@ -54,12 +66,18 @@ if(carousel){
       slide.setAttribute('aria-pressed',distance===0?'true':'false');
       slide.tabIndex=distance===0?0:-1;
     });
+    // Commit offstage positions before restoring transitions on the next selection.
+    void carouselVisual.offsetWidth;
     [...dots.children].forEach((dot,index)=>{
       dot.classList.toggle('is-current',index===current);
       dot.setAttribute('aria-current',index===current?'true':'false');
     });
     bioName.textContent=slides[current].dataset.name;
     bioText.textContent=slides[current].dataset.bio;
+    if(bioSource){
+      bioSource.href=sources[current][0];
+      bioSource.textContent=sources[current][1]+' ↗';
+    }
   }
 
   carousel.querySelector('.previous').addEventListener('click',()=>select(current-1));

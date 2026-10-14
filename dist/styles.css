@@ -141,6 +141,22 @@
 
 }
 /* Explain the term before the three grooming stages. */
+/* Media previews stay visible without depending on third-party iframe players. */
+.media-card{display:flex;flex-direction:column}
+.media-preview{display:flex;align-items:center;justify-content:center;position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--ink)}
+.media-preview img{display:block;width:100%;height:100%;object-fit:cover}
+.podcast-preview{background:#eee7de}
+.podcast-preview img{width:auto;max-width:100%;object-fit:contain}
+.youtube-play{position:absolute;width:76px;filter:drop-shadow(0 2px 5px #0006)}
+.youtube-play svg{display:block;width:100%}
+.media-preview:focus-visible{outline:4px solid var(--yellow);outline-offset:-4px}
+.media-caption{flex:1;display:flex;flex-direction:column;align-items:flex-start}
+.media-caption>a{margin-top:auto}
+.problem mark{background:var(--ink);color:var(--yellow);padding:.08em .18em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.persona-slide[data-distance="2"]{opacity:0;visibility:hidden}
+.persona-slide.is-current{animation:none}
+.carousel-bio h3{margin-top:0}
+.action-grid h3{min-height:2.7em;line-height:1.3}
 .problem{grid-template-columns:1fr 1fr;column-gap:56px;row-gap:28px;align-items:center}
 .problem h2{font-size:clamp(40px,5.4vw,74px);margin-bottom:24px}
 .problem-intro>p:not(.source-row){font-size:19px;line-height:1.6;max-width:520px;margin:0}
@@ -149,3 +165,62 @@
 .problem-character img{display:block;width:100%;max-width:480px;height:480px;object-fit:contain;filter:drop-shadow(8px 8px 0 var(--blue))}
 @media(max-width:850px){.problem{grid-template-columns:1fr;row-gap:32px}.problem-intro>p:not(.source-row){max-width:650px}.problem-character img{max-width:360px;height:380px}}
 @media(max-width:520px){.problem-intro>p:not(.source-row){font-size:18px}.problem-character img{max-width:300px;height:340px}}
+
+/* Source-led guidance, in the existing campaign visual language. */
+.source-note{font-size:13px;line-height:1.6;margin:20px 0 0}
+.source-note a,.persona-source a{text-underline-offset:3px}
+.hero-help{display:block;width:fit-content;margin-top:24px;font-weight:700;text-underline-offset:4px}
+.hero .source-note{max-width:540px;color:#c9c6c1;font-size:12px}
+.carousel-profile{min-width:0}
+.persona-disclaimer{font-size:12px;line-height:1.5;margin:20px 0 8px;color:#514b43}
+.persona-source{font-size:12px;line-height:1.5;margin:0;min-height:3em}
+.carousel-profile .carousel-bio{min-height:300px}
+.risk-terms{grid-column:1/-1;border-top:3px solid var(--ink);margin-top:20px}
+.risk-terms details{border-bottom:2px solid var(--ink)}
+.risk-terms summary{display:grid;grid-template-columns:35px minmax(180px,.8fr) 1fr 28px;align-items:center;gap:18px;cursor:pointer;list-style:none;padding:24px 0}
+.risk-terms summary::-webkit-details-marker{display:none}
+.risk-terms summary>span:first-child{font-size:12px;font-weight:800}
+.risk-terms summary strong{font-family:var(--head);font-size:clamp(23px,2.5vw,32px);letter-spacing:-.035em}
+.risk-terms summary::after{content:'+';font-size:30px;line-height:1;text-align:center}
+.risk-terms details[open] summary::after{content:'−'}
+.risk-terms summary:focus-visible{outline:3px solid var(--ink);outline-offset:5px}
+.term-hint{font-size:16px}
+.term-body{max-width:860px;padding:0 40px 28px 53px}
+.term-body>p{font-size:18px;line-height:1.65;margin:0 0 16px}
+.term-body>.source-note{font-size:13px;margin-bottom:0}
+.media-caption{min-height:260px}
+.media-caption p{font-size:15px;line-height:1.5;margin:8px 0 22px;max-width:48ch}
+.media-caption h3{font-size:clamp(23px,2.2vw,30px);line-height:1.2}
+.help .section-heading>p:last-child{max-width:700px;font-size:20px}
+.help-first{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.help-first article{border-top:2px solid #8e8b87;padding-top:22px}
+.step-number{font-family:var(--head);font-size:30px;color:var(--yellow)}
+.help-first h3{font-size:23px;line-height:1.25;margin:16px 0}
+.help-first .source-note{color:#d3cec5}
+.help-contact{display:flex;gap:36px;align-items:center;padding:30px 0 48px;border-bottom:1px solid #6a6762}
+.help-contact .button{color:var(--ink);flex-shrink:0}
+.help-contact p{font-size:15px;line-height:1.8}
+.help-more-title{font-size:24px;margin:42px 0 24px}
+.editorial{display:grid;grid-template-columns:.65fr 1.35fr;gap:48px;padding:64px max(24px,calc((100vw - var(--max))/2));border-top:2px solid var(--ink)}
+.editorial h2{font-family:var(--head);font-size:32px;line-height:1.1;margin:0}
+.editorial p{font-size:14px;line-height:1.7;margin:0 0 16px;max-width:780px}
+.site-footer{gap:32px;align-items:flex-start}
+.site-footer p{font-size:13px;color:#c9c6c1}
+.site-footer nav{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;font-size:14px}
+@media(max-width:850px){
+  .help-first{grid-template-columns:1fr;gap:24px}
+  .help-contact{align-items:flex-start;flex-direction:column;gap:16px}
+  .editorial{grid-template-columns:1fr;gap:24px}
+}
+@media(max-width:760px){
+  .carousel-profile{width:100%;max-width:540px;justify-self:center}
+  .carousel-profile .carousel-bio{min-height:240px}
+  .risk-terms summary{grid-template-columns:24px 1fr 24px;gap:10px;padding:22px 0}
+  .term-hint{grid-column:2;grid-row:2;font-size:14px}
+  .risk-terms summary::after{grid-column:3;grid-row:1/3}
+  .term-body{padding:0 0 24px 34px}
+  .term-body>p{font-size:17px}
+  .media-caption{min-height:0}
+  .media-caption>a{margin-top:12px}
+  .site-footer{flex-direction:column}
+}

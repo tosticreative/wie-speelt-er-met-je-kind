@@ -1,0 +1,58 @@
+Redactionele broncontrole — 14 oktober 2026
+
+Scope: openingsclaim, fictieve personages, begrippen, ouderadvies, hulp-route,
+podcasttitel en inhoudelijke verantwoording. Geen externe deskundigenreview.
+
+Ontbrekende bronverwijzingen aangevuld:
+- Opening over risicovol contact: NJi, plus een gedateerd politie/OM-bericht
+  over een concrete zaak waarin contact via Roblox ontstond. Geen claim over
+  prevalentie afgeleid uit die zaak; geen schuldvaststelling toegevoegd.
+- Personages: blijvende fictietoelichting en achtergrondlink per gedrag.
+  Dit zijn verzonnen illustraties, geen uit bronnen overgenomen daderprofielen.
+- Begrippen: per uitklapveld een rechtstreeks ondersteunende bron.
+- Oudervoorbeelden: herkenbaar als campagnevoorbeelden; specifieke
+  gesprekstips van Offlimits in plaats van alleen een algemene NJi-index.
+- Hulp-route: specifieke Offlimits-pagina's voor ouderreactie, bewijs en
+  sextortion; telefoonnummers op politie.nl gecontroleerd.
+- NRC: programmanaam gescheiden van afleveringstitel; context commercie
+  toegevoegd. Geen bron voor grooming genoemd.
+
+Bronnen en afbakening:
+https://www.nji.nl/kennis/kindermishandeling/online-seksueel-misbruik
+  Grooming, online misbruik, macht en controle; brede uitleg, geen juridische
+  leeftijdsgrenzen overgenomen.
+https://hulplijn.offlimits.nl/onderwerpen/sextortion
+  Chantage met seksuele beelden, niet toegeven, hulp en aangifte. Inhoud via
+  zoekresultaat en eerste paginaweergave gelezen; latere web-fetch time-outs.
+https://hulplijn.offlimits.nl/onderwerpen/online-benaderd-voor-seks
+  Catfishing, nepprofielen, ongewenst contact; een avatar is niet op zichzelf
+  catfishing. Geen directe doxing-classificatie van Meet me Outside88.
+https://www.politie.nl/informatie/wat-is-doxing.html
+  Verzamelen/verspreiden persoonsgegevens met kwade bedoelingen.
+https://www.politie.nl/nieuws/2026/juli/23/verdachte-20-van-verkrachting-en-mishandeling-binnen-764-com-langer-vast.html
+  Politie publiceert OM-persbericht, 23 juli 2026. Verdenking, geen vonnis.
+  Beschrijft dwang en 764/The Com; namen van netwerken, geen synoniemen voor
+  grooming. Geen grafische details overgenomen.
+https://hulplijn.offlimits.nl/ouders-verzorgers-hulpverleners-en-onderwijs/help-mijn-kind-heeft-een-online-probleem
+  Kalm blijven, niet oordelen, geruststellen, samen oplossingen zoeken.
+https://hulplijn.offlimits.nl/naar-de-politie/hoe-verzamel-ik-bewijs
+  Accountnamen, berichten, URLs, tijdstippen; overleg over blokkeren/melden.
+https://hulplijn.offlimits.nl/praten-over-internetgebruik-met-je-kinderen
+  Interesse, afspraken, leeftijdsafhankelijk begeleiden, geen verwijten.
+https://www.politie.nl/
+  Spoed 112; geen spoed 0900-8844.
+https://podcasts.apple.com/nl/podcast/roblox-welkom-in-het-kapitalistische-kinderuniversum/id1460234936?i=1000749371956
+  NRC Vandaag, Roblox: welkom in het kapitalistische kinderuniversum,
+  12 februari 2026, 21 minuten. Titel/omschrijving gecontroleerd in voorgaande
+  redactieronde. Cover via bijbehorende publieke og:image.
+
+Niet gepresenteerd als vaststaand:
+- Hoe vaak deze gedragingen op Roblox voorkomen.
+- Alle spelers of onbekenden zijn gevaarlijk.
+- Fictieve accounts/personages zijn echte verdachten.
+- Een nieuwsbericht over een verdenking is een bewezen strafzaak.
+- De genoemde organisaties onderschrijven de campagne of hebben die beoordeeld.
+- Online dwang is één afgebakende juridische term.
+
+Voor publicatie aanbevolen: inhoudelijke beoordeling door een deskundige
+vastleggen met naam, rol en datum; contactadres door opdrachtgever bevestigen.
