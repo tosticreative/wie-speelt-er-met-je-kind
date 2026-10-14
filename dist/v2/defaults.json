@@ -101,8 +101,8 @@
     },
     "spelers.text.1": {
       "section": "spelers",
-      "label": "Wie speelt er met je kind?",
-      "value": "Wie speelt er met je kind?"
+      "label": "Sommige échte avatars...",
+      "value": "Sommige échte avatars..."
     },
     "spelers.text.2": {
       "section": "spelers",
@@ -262,11 +262,6 @@
       "section": "spelers",
       "label": "→",
       "value": "→"
-    },
-    "spelers.text.7": {
-      "section": "spelers",
-      "label": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet",
-      "value": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet; aan een avatar zie je niet wie erachter zit."
     },
     "grooming.text.1": {
       "section": "grooming",
