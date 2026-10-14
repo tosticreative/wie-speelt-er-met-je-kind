@@ -60,8 +60,8 @@
     },
     "top.text.4": {
       "section": "top",
-      "label": "De onzichtbare kant van Roblox ↓",
-      "value": "De onzichtbare kant van Roblox ↓"
+      "label": "Ontdek de gevaren van online gaming.",
+      "value": "Ontdek de gevaren van online gaming."
     },
     "top.text.5": {
       "section": "top",
@@ -219,8 +219,8 @@
     },
     "spelers.attribute.22": {
       "section": "spelers",
-      "label": "data-bio: Ik wil dat je alleen nog met mij praat. En doet wat ik zeg.",
-      "value": "Ik wil dat je alleen nog met mij praat. En doet wat ik zeg.",
+      "label": "data-bio: Ik wil dat je alleen nog met mij praat en contacten met je naasten verbreekt.",
+      "value": "Ik wil dat je alleen nog met mij praat en contacten met je naasten verbreekt. Ik wil dat je daarna doet wat ik zeg.",
       "attribute": "data-bio"
     },
     "spelers.attribute.23": {
@@ -275,13 +275,8 @@
     },
     "grooming.text.3": {
       "section": "grooming",
-      "label": "Grooming en sextortion betekenen niet hetzelfde. Bij grooming zoekt iemand conta",
-      "value": "Grooming en sextortion betekenen niet hetzelfde. Bij grooming zoekt iemand contact met seksueel misbruik als doel. Bij sextortion dreigt iemand intieme beelden te verspreiden. Ook misleiding en bedreiging kunnen een rol spelen."
-    },
-    "grooming.text.4": {
-      "section": "grooming",
-      "label": "De begrippen hieronder kunnen elkaar overlappen.",
-      "value": "De begrippen hieronder kunnen elkaar overlappen."
+      "label": "Daders kunnen uit zijn op verschillende dingen. Denk aan grooming en sextortion.",
+      "value": "Daders kunnen uit zijn op verschillende dingen. Denk aan grooming en sextortion. Bij grooming zoekt iemand contact met seksueel misbruik als doel. Bij sextortion dreigt iemand intieme beelden te verspreiden. Ook misleiding en bedreiging kunnen een rol spelen. Hoe dat zit leer je hieronder."
     },
     "grooming.attribute.28": {
       "section": "grooming",
@@ -312,8 +307,8 @@
     },
     "grooming.text.7": {
       "section": "grooming",
-      "label": "Vertrouwen winnen voor seksueel misbruik",
-      "value": "Vertrouwen winnen voor seksueel misbruik"
+      "label": "In het kort: Vertrouwen winnen voor seksueel misbruik",
+      "value": "In het kort: Vertrouwen winnen voor seksueel misbruik"
     },
     "grooming.text.8": {
       "section": "grooming",
@@ -352,8 +347,8 @@
     },
     "grooming.text.15": {
       "section": "grooming",
-      "label": "Chantage met intieme beelden",
-      "value": "Chantage met intieme beelden"
+      "label": "In het kort: Chantage met intieme beelden",
+      "value": "In het kort: Chantage met intieme beelden"
     },
     "grooming.text.16": {
       "section": "grooming",
@@ -382,8 +377,8 @@
     },
     "grooming.text.21": {
       "section": "grooming",
-      "label": "Doen alsof je iemand anders bent",
-      "value": "Doen alsof je iemand anders bent"
+      "label": "In het kort: Doen alsof je iemand anders bent",
+      "value": "In het kort: Doen alsof je iemand anders bent"
     },
     "grooming.text.22": {
       "section": "grooming",
@@ -412,8 +407,8 @@
     },
     "grooming.text.27": {
       "section": "grooming",
-      "label": "Privégegevens gebruiken om te intimideren",
-      "value": "Privégegevens gebruiken om te intimideren"
+      "label": "In het kort: Privégegevens zoeken of verspreiden",
+      "value": "In het kort: Privégegevens zoeken of verspreiden"
     },
     "grooming.text.28": {
       "section": "grooming",
@@ -442,8 +437,8 @@
     },
     "grooming.text.33": {
       "section": "grooming",
-      "label": "Als een ander bepaalt wat je moet doen",
-      "value": "Als een ander bepaalt wat je moet doen"
+      "label": "In het kort: Gehoorzaamheid eisen en contact beperken",
+      "value": "In het kort: Gehoorzaamheid eisen en contact beperken"
     },
     "grooming.text.34": {
       "section": "grooming",
@@ -546,8 +541,8 @@
     },
     "doen.text.1": {
       "section": "doen",
-      "label": "Thuis begint het gesprek",
-      "value": "Thuis begint het gesprek"
+      "label": "In gesprek met je kind",
+      "value": "In gesprek met je kind"
     },
     "doen.text.2": {
       "section": "doen",
@@ -566,8 +561,8 @@
     },
     "doen.text.5": {
       "section": "doen",
-      "label": "Vraag je kind om Roblox te laten zien. Wat speel je? Met wie? En waar praten jul",
-      "value": "Vraag je kind om Roblox te laten zien. Wat speel je? Met wie? En waar praten jullie over?"
+      "label": "Vraag je kind om Roblox eens te laten zien.",
+      "value": "Vraag je kind om Roblox eens te laten zien."
     },
     "doen.text.6": {
       "section": "doen",
@@ -586,8 +581,8 @@
     },
     "doen.text.9": {
       "section": "doen",
-      "label": "Mag ik eens meekijken?",
-      "value": "Mag ik eens meekijken?"
+      "label": "Wees voorbereid en stel de juiste vragen. Bijvoorbeeld:",
+      "value": "Wees voorbereid en stel de juiste vragen. Bijvoorbeeld:"
     },
     "doen.text.10": {
       "section": "doen",
@@ -601,8 +596,8 @@
     },
     "doen.text.12": {
       "section": "doen",
-      "label": "Praten jullie ook via andere apps?",
-      "value": "Praten jullie ook via andere apps?"
+      "label": "Wordt er wel eens naar je adres gevraagd",
+      "value": "Wordt er wel eens naar je adres gevraagd"
     },
     "doen.text.13": {
       "section": "doen",
@@ -644,6 +639,16 @@
       "label": "Roblox ouderhandleiding ↗",
       "value": "Roblox ouderhandleiding ↗"
     },
+    "doen.text.21": {
+      "section": "doen",
+      "label": "Praten jullie ook via andere apps?",
+      "value": "Praten jullie ook via andere apps?"
+    },
+    "doen.text.22": {
+      "section": "doen",
+      "label": "Bijvoorbeeld: alleen op Roblox zonder chatfunctie.",
+      "value": "Bijvoorbeeld: alleen op Roblox zonder chatfunctie."
+    },
     "hulp.text.1": {
       "section": "hulp",
       "label": "Hulp bij online misbruik",
@@ -656,8 +661,8 @@
     },
     "hulp.text.3": {
       "section": "hulp",
-      "label": "Wordt je kind bedreigd of onder druk gezet? Je hoeft niet eerst precies te weten",
-      "value": "Wordt je kind bedreigd of onder druk gezet? Je hoeft niet eerst precies te weten wat er is gebeurd om hulp te vragen."
+      "label": "Wordt je kind bedreigd of onder druk gezet? Dan kun je het volgende doen.",
+      "value": "Wordt je kind bedreigd of onder druk gezet? Dan kun je het volgende doen."
     },
     "hulp.text.4": {
       "section": "hulp",
@@ -671,8 +676,8 @@
     },
     "hulp.text.6": {
       "section": "hulp",
-      "label": "Laat je kind vertellen en probeer rustig te blijven. Zeg dat je blij bent dat he",
-      "value": "Laat je kind vertellen en probeer rustig te blijven. Zeg dat je blij bent dat het naar je toe komt. Wat er ook is gebeurd: misbruik is niet de schuld van je kind. Bespreek samen welke hulp nodig is."
+      "label": "Laat je kind vertellen en probeer rustig te luisteren. Zeg dat je blij bent dat",
+      "value": "Laat je kind vertellen en probeer rustig te luisteren. Zeg dat je blij bent dat het naar je toe komt. Wat er ook is gebeurd: misbruik is niet de schuld van je kind. Bespreek samen welke hulp nodig is."
     },
     "hulp.text.7": {
       "section": "hulp",
@@ -691,8 +696,8 @@
     },
     "hulp.text.10": {
       "section": "hulp",
-      "label": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten, maar stuur int",
-      "value": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten, maar stuur intieme beelden niet door. Vraag Offlimits of de politie hoe je bewijs veilig bewaart en wanneer je het account kunt melden en blokkeren."
+      "label": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten. Vraag een inst",
+      "value": "Noteer accountnamen, links en tijdstippen. Bewaar dreigberichten. Vraag een instantie als Offlimits of de politie hoe je bewijs veilig bewaart en wanneer je het account kunt melden en blokkeren."
     },
     "hulp.text.11": {
       "section": "hulp",
@@ -712,7 +717,7 @@
     "hulp.text.14": {
       "section": "hulp",
       "label": "Neem contact op met Offlimits bij online misbruik. Wordt je kind gechanteerd? Be",
-      "value": "Neem contact op met Offlimits bij online misbruik. Wordt je kind gechanteerd? Betaal niet en stuur geen nieuwe beelden. De politie kan uitleggen hoe je een melding of aangifte doet."
+      "value": "Neem contact op met Offlimits bij online misbruik. Wordt je kind gechanteerd? Betaal niet en stuur nooit extra beelden. De politie kan uitleggen hoe je een melding of aangifte doet."
     },
     "hulp.text.15": {
       "section": "hulp",
@@ -741,8 +746,8 @@
     },
     "hulp.text.20": {
       "section": "hulp",
-      "label": "Geen spoed, wel politie:",
-      "value": "Geen spoed, wel politie: "
+      "label": "Politie:",
+      "value": "Politie: "
     },
     "hulp.text.21": {
       "section": "hulp",
@@ -816,8 +821,8 @@
     },
     "over.text.2": {
       "section": "over",
-      "label": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik.",
-      "value": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik. Ken je een ouder voor wie dit nuttig is? Deel de website via WhatsApp."
+      "label": "Ken je een ouder voor wie dit nuttig is? Deel deze website via WhatsApp.",
+      "value": "Ken je een ouder voor wie dit nuttig is? Deel deze website via WhatsApp."
     },
     "over.text.3": {
       "section": "over",
@@ -845,15 +850,10 @@
       "label": "Over deze website",
       "value": "Over deze website"
     },
-    "verantwoording.text.2": {
-      "section": "verantwoording",
-      "label": "Een initiatief van Tosti Creative.",
-      "value": "Een initiatief van Tosti Creative."
-    },
     "verantwoording.text.3": {
       "section": "verantwoording",
       "label": "Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituu",
-      "value": " Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituut, Offlimits, HackShield en de politie. De links staan bij de teksten. De verwijzingen betekenen niet dat deze organisaties de campagne onderschrijven."
+      "value": "Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituut, Offlimits, HackShield en de politie. De links staan bij de teksten. De verwijzingen betekenen niet dat deze organisaties de campagne onderschrijven."
     },
     "verantwoording.text.4": {
       "section": "verantwoording",
