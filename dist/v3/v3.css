@@ -203,6 +203,6 @@ body.v3 :is(a,button,summary,[tabindex]):focus-visible{
 .v3 .hero-identity>.avatar-glitch-layer,.v3 .persona-slide>.avatar-glitch-layer{
   position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center bottom;
   z-index:3;opacity:0;pointer-events:none;
-  filter:drop-shadow(-5px 0 0 #f33bc9) drop-shadow(5px 0 0 #2aaee4);
+  filter:drop-shadow(-8px 0 0 #f33bc9) drop-shadow(8px 0 0 #2aaee4) saturate(1.7);
 }
 @media(prefers-reduced-motion:reduce){.v3 .avatar-glitch-layer{display:none}}
