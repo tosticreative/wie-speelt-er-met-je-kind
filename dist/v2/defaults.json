@@ -263,11 +263,6 @@
       "label": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet",
       "value": "Deze personages en accountnamen zijn verzonnen. Let op wat iemand vraagt en doet; aan een avatar zie je niet wie erachter zit."
     },
-    "spelers.text.8": {
-      "section": "spelers",
-      "label": "Achtergrond:",
-      "value": "Achtergrond: "
-    },
     "grooming.text.1": {
       "section": "grooming",
       "label": "Wat gebeurt er online?",
@@ -290,9 +285,14 @@
     },
     "grooming.attribute.28": {
       "section": "grooming",
-      "label": "alt: Fictief campagnepersonage BestFriend_XXX",
-      "value": "Fictief campagnepersonage BestFriend_XXX",
+      "label": "alt: Close-up van een meisje dat op een tablet twee personages ontmoet in een online spel.",
+      "value": "Close-up van een meisje dat op een tablet twee personages ontmoet in een online spel.",
       "attribute": "alt"
+    },
+    "grooming.text.40": {
+      "section": "grooming",
+      "label": "Beeld: gegenereerd met AI.",
+      "value": "Beeld: gegenereerd met AI."
     },
     "grooming.attribute.29": {
       "section": "grooming",
@@ -571,8 +571,8 @@
     },
     "doen.text.6": {
       "section": "doen",
-      "label": "Meer over veilig gamen ↗",
-      "value": "Meer over veilig gamen ↗"
+      "label": "HackShield over veilig gamen ↗",
+      "value": "HackShield over veilig gamen ↗"
     },
     "doen.text.7": {
       "section": "doen",
@@ -643,21 +643,6 @@
       "section": "doen",
       "label": "Roblox ouderhandleiding ↗",
       "value": "Roblox ouderhandleiding ↗"
-    },
-    "doen.text.21": {
-      "section": "doen",
-      "label": "Bespreek welke afspraken bij de leeftijd van je kind passen. Ook met afspraken k",
-      "value": "Bespreek welke afspraken bij de leeftijd van je kind passen. Ook met afspraken kan er iets misgaan. Je kind moet dan bij je terechtkunnen. Achtergrond: "
-    },
-    "doen.text.22": {
-      "section": "doen",
-      "label": "Offlimits — praten over internetgebruik ↗",
-      "value": "Offlimits — praten over internetgebruik ↗"
-    },
-    "doen.text.23": {
-      "section": "doen",
-      "label": ".",
-      "value": "."
     },
     "hulp.text.1": {
       "section": "hulp",
@@ -826,23 +811,34 @@
     },
     "over.text.1": {
       "section": "over",
-      "label": "Een initiatief van Tosti Creative.",
-      "value": "Een initiatief van Tosti Creative."
+      "label": "Tip een ouder",
+      "value": "Tip een ouder"
     },
     "over.text.2": {
       "section": "over",
       "label": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik.",
-      "value": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik. Met fictieve personages, uitleg en vragen voor thuis. Voor ouders die willen weten met wie hun kind speelt en praat."
+      "value": "Wie speelt er met je kind? laat zien hoe online contact kan omslaan in misbruik. Ken je een ouder voor wie dit nuttig is? Deel de website via WhatsApp."
     },
     "over.text.3": {
       "section": "over",
-      "label": "Meedoen met deze campagne?",
-      "value": "Meedoen met deze campagne?"
+      "label": "Met jouw organisatie of merk aansluiten bij deze campagne?",
+      "value": "Met jouw organisatie of merk aansluiten bij deze campagne?"
     },
     "over.text.4": {
       "section": "over",
       "label": "Neem contact op →",
       "value": "Neem contact op →"
+    },
+    "over.text.5": {
+      "section": "over",
+      "label": "Deel via WhatsApp →",
+      "value": "Deel via WhatsApp →"
+    },
+    "over.attribute.35": {
+      "section": "over",
+      "label": "aria-label: Deel deze website via WhatsApp",
+      "value": "Deel deze website via WhatsApp",
+      "attribute": "aria-label"
     },
     "verantwoording.text.1": {
       "section": "verantwoording",
@@ -851,13 +847,13 @@
     },
     "verantwoording.text.2": {
       "section": "verantwoording",
-      "label": "Tosti Creative maakte deze campagne.",
-      "value": "Tosti Creative maakte deze campagne."
+      "label": "Een initiatief van Tosti Creative.",
+      "value": "Een initiatief van Tosti Creative."
     },
     "verantwoording.text.3": {
       "section": "verantwoording",
       "label": "Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituu",
-      "value": " Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituut, Offlimits en de politie. De links staan bij de teksten. De verwijzingen betekenen niet dat deze organisaties de campagne onderschrijven."
+      "value": " Voor de uitleg gebruiken we openbare informatie van het Nederlands Jeugdinstituut, Offlimits, HackShield en de politie. De links staan bij de teksten. De verwijzingen betekenen niet dat deze organisaties de campagne onderschrijven."
     },
     "verantwoording.text.4": {
       "section": "verantwoording",
@@ -883,21 +879,6 @@
       "section": "verantwoording",
       "label": "Laat het Tosti Creative weten ↗",
       "value": "Laat het Tosti Creative weten ↗"
-    },
-    "verantwoording.text.9": {
-      "section": "verantwoording",
-      "label": ". Stuur geen intieme beelden of gevoelige gegevens over een kind mee. Zoek je hu",
-      "value": ". Stuur geen intieme beelden of gevoelige gegevens over een kind mee. Zoek je hulp voor jezelf of je kind? "
-    },
-    "verantwoording.text.10": {
-      "section": "verantwoording",
-      "label": "Bekijk waar je terechtkunt",
-      "value": "Bekijk waar je terechtkunt"
-    },
-    "verantwoording.text.11": {
-      "section": "verantwoording",
-      "label": ".",
-      "value": "."
     },
     "site-footer.text.1": {
       "section": "site-footer",
@@ -934,31 +915,6 @@
       "section": "site-footer",
       "label": "Over deze website",
       "value": "Over deze website"
-    },
-    "avatars.source.0": {
-      "section": "spelers",
-      "label": "Bron bij personage 1",
-      "value": "Offlimits over sextortion ↗"
-    },
-    "avatars.source.1": {
-      "section": "spelers",
-      "label": "Bron bij personage 2",
-      "value": "Politie/OM over online dwang ↗"
-    },
-    "avatars.source.2": {
-      "section": "spelers",
-      "label": "Bron bij personage 3",
-      "value": "NJi over grooming en misbruik ↗"
-    },
-    "avatars.source.3": {
-      "section": "spelers",
-      "label": "Bron bij personage 4",
-      "value": "Offlimits over ongewenst online contact ↗"
-    },
-    "avatars.source.4": {
-      "section": "spelers",
-      "label": "Bron bij personage 5",
-      "value": "NJi over macht en controle bij misbruik ↗"
     },
     "avatars.dot.0": {
       "section": "spelers",

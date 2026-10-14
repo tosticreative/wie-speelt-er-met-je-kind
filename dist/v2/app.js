@@ -24,14 +24,6 @@ if(carousel){
   const bioText=carousel.querySelector('.carousel-bio p');
   const dots=carousel.querySelector('.carousel-dots');
   const carouselVisual=carousel.querySelector('.carousel-visual');
-  const bioSource=carousel.querySelector('.persona-source a');
-  const sources=[
-    ['https://hulplijn.offlimits.nl/onderwerpen/sextortion','Offlimits over sextortion'],
-    ['https://www.politie.nl/nieuws/2026/juli/23/verdachte-20-van-verkrachting-en-mishandeling-binnen-764-com-langer-vast.html','Politie/OM over online dwang'],
-    ['https://www.nji.nl/kennis/kindermishandeling/online-seksueel-misbruik','NJi over grooming en misbruik'],
-    ['https://hulplijn.offlimits.nl/onderwerpen/online-benaderd-voor-seks','Offlimits over ongewenst online contact'],
-    ['https://www.nji.nl/kennis/kindermishandeling/online-seksueel-misbruik','NJi over macht en controle bij misbruik']
-  ];
   let current=0;
 
   slides.forEach((slide,index)=>{
@@ -78,11 +70,6 @@ if(carousel){
     bioText.textContent=slides[current].dataset.bio;
     bioText.dataset.copy=slides[current].dataset.copyAttrs.split('|').find(x=>x.startsWith('data-bio:')).slice(9);
     window.prepareInline?.();
-    if(bioSource){
-      bioSource.href=sources[current][0];
-      bioSource.textContent=window.copyValues['avatars.source.'+current];
-      bioSource.dataset.copy='avatars.source.'+current;
-    }
   }
 
   carousel.querySelector('.previous').addEventListener('click',()=>select(current-1));
@@ -98,5 +85,5 @@ if(carousel){
     if(Math.abs(distance)>45)select(current+(distance<0?1:-1));
   },{passive:true});
   window.refreshCarousel=()=>select(current);
-  select(0);
+  select(1);
 }
