@@ -171,7 +171,7 @@ body.v3 :is(a,button,summary,[tabindex]):focus-visible{
   border:0;border-radius:0;box-shadow:none;padding:0;
   background:none;isolation:isolate;
 }
-.v3 .hero .hero-scene::before{content:'';position:absolute;inset:-100%;z-index:-1;pointer-events:none;background:radial-gradient(circle,#fff8ed 0 38%,#d7eaf1 39% 40%,transparent 41%)}
+.v3 .hero .hero-scene::before{content:'';position:absolute;inset:-55%;z-index:-1;pointer-events:none;background:radial-gradient(circle,#fff8ed 0 38%,#d7eaf1 39% 40%,transparent 41%)}
 .v3 .action-grid .action-heading b,.v3 .help-first .step-number{
   font-size:28px;line-height:1;letter-spacing:0;padding:0;
   display:flex;align-items:center;justify-content:center;flex-shrink:0;
