@@ -24,8 +24,8 @@ body.v3{
 
 /* The game cursor only replaces a mouse/trackpad cursor. Touch keeps native behavior. */
 @media (pointer:fine){
-  body.v3,body.v3 *{cursor:url('./cursor-target.svg') 27 27,crosshair!important}
-  body.v3 :is(a,button,summary,input,textarea,select,[tabindex]:not([tabindex="-1"]),[contenteditable="true"]){cursor:url('./cursor-target.svg') 27 27,pointer}
+  body.v3,body.v3 *{cursor:url('./cursor-arrow.svg') 3 2,auto!important}
+  body.v3 :is(a,button,summary,input,textarea,select,[tabindex]:not([tabindex="-1"]),[contenteditable="true"]){cursor:url('./cursor-arrow.svg') 3 2,pointer}
 }
 
 body.v3 :is(a,button,summary,[tabindex]):focus-visible{
